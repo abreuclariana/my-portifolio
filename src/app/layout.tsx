@@ -8,6 +8,7 @@ import {Projects} from './components/Projects';
 import {Contacts} from './components/Contacts';
 import {translations} from './components/LanguageSwitcher'
 
+
 interface RootLayoutProps {
   children: ReactNode;
 }
