@@ -1,12 +1,17 @@
 
 import "./globals.css";
 import React, { ReactNode } from "react";
-import {Header} from './components/header';
+import ThemeChanger from './components/DarkSwitcher';
+import {Navbar} from './components/Navbar';
+import {Header} from './components/header'; // Importação padrão
 import {About} from './components/About';
 import {Skills} from './components/Skills';
 import {Projects} from './components/Projects';
+import {Faq} from './components/Faq';
 import {Contacts} from './components/Contacts';
+import {Footer} from './components/Footer';
 import {translations} from './components/LanguageSwitcher'
+
 
 
 interface RootLayoutProps {
@@ -21,12 +26,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <html lang="en">
           <body className="bg-zinc-900 text-white">
              
-              <main className="container-center">
+            <main className="container-center">
+            <ThemeChanger />
+              <Navbar/>
                 <Header/>
                   <About />
                   <Skills />
                   <Projects />
+                  <Faq/>
                   <Contacts />
+                  <Footer/>
               </main>
               {children}
           </body>

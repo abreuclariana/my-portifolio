@@ -1,12 +1,12 @@
 export function Projects() {
     const projects = [
-        { name: "Projeto 1", description: "Web Form Application 1", link: "https://github.com/abreuclariana/web-form-application", icon: "📝" },
-        { name: "Projeto 2", description: "Modal Pop-Up 2", link: "https://github.com/abreuclariana/tipscode-modal", icon: "📦" },
+        { name: "Projeto 1", description: "Web Form Application", link: "https://github.com/abreuclariana/web-form-application", icon: "📝" },
+        { name: "Projeto 2", description: "Modal Pop-Up", link: "https://github.com/abreuclariana/tipscode-modal", icon: "📦" },
         { name: "Projeto 3", description: "Projeto Sons de bateria", link: "https://github.com/abreuclariana/drum-sounds-project", icon: "🎶" },
     ];
 
     return (
-        <section id="projects" className="py-40 bg-zinc-900 text-center border-b border-zinc-700">
+        <section id="projects" className="py-60 bg-zinc-900 text-center border-b border-zinc-700">
             <h2 className="py-10 text-5xl font-bold mb-10 text-white">Meus Projetos</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
                 {projects.map((project) => (

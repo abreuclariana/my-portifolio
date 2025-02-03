@@ -5,18 +5,18 @@ export function Skills() {
     const skills = [
         { name: "HTML", icon: <FaHtml5 className="text-orange-500 text-4xl" /> },
         { name: "CSS", icon: <FaCss3Alt className="text-blue-500 text-4xl" /> },
-        { name: "Tailwind CSS", icon: <img src="./images/tailwindcss-logo.svg" alt="Tailwind CSS" className="w-12 h-12 mx-auto" /> },
+        { name: "Tailwind CSS", icon: <img src="/img/tailwindcss-logo.svg" alt="Tailwind CSS" className="w-12 h-12 mx-auto" /> },
         { name: "JavaScript", icon: <FaJs className="text-yellow-500 text-4xl" /> },
-        { name: "TypeScript", icon: <img src="./images/typescript-logo.svg" alt="TypeScript" className="w-12 h-12 mx-auto" /> },
+        { name: "TypeScript", icon: <img src="/img/typescript-logo.svg" alt="TypeScript" className="w-12 h-12 mx-auto" /> },
         { name: "React", icon: <FaReact className="text-cyan-400 text-4xl" /> },
-        { name: "Next.js", icon: <img src="./images/nextjs-logo.svg" alt="Next.js" className="w-12 h-12 mx-auto" /> },
+        { name: "Next.js", icon: <img src="/img/nextjs-logo.svg" alt="Next.js" className="w-12 h-12 mx-auto" /> },
         { name: "Node.js", icon: <FaNodeJs className="text-green-500 text-4xl" /> },
         // Logo do Tailwind CSS
     ];
 
     return (
-        <section id="skills" className="py-20 bg-zinc-900 text-center border-b border-gray-700">
-            <h2 className="text-5xl font-bold mb-20 text-white">Minhas Skills</h2>
+        <section id="skills" className="py-60 bg-zinc-900 text-center border-b border-gray-700">
+            <h2 className="text-5xl font-bold mb-20 text-white">Skills</h2>
             <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-12 max-w-6xl mx-auto">
                 {skills.map((skill) => (
                     <li
