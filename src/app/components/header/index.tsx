@@ -17,15 +17,15 @@ export const Header = () => {
           {/* Botões */}
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
+              href="https://linkedin.com/in/clariana-abreu-dev/"
               target="_blank"
               rel="noopener"
               className="px-8 py-4 text-lg font-medium text-white bg-indigo-600 rounded-md"
             >
-              Download for Free
+              Get in touch!
             </a>
             <a
-              href="https://github.com/web3templates/nextly-template/"
+              href="https://github.com/abreuclariana"
               target="_blank"
               rel="noopener"
               className="flex items-center gap-2 text-gray-500 dark:text-gray-400"
