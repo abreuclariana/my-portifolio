@@ -11,7 +11,7 @@ export function About() {
           <img
             src="/img/background.jpg" 
             alt="Foto de Clariana Abreu"
-            className="w-96 h-96 md:w-[500px] md:h-[500px] rounded-lg object-cover shadow-2xl"
+            className="w-96 h-96 md:w-[700px] md:h-[600px] rounded-lg object-cover shadow-2xl"
           />
         </div>
 

@@ -7,7 +7,6 @@ import {Header} from './components/header'; // Importação padrão
 import {About} from './components/About';
 import {Skills} from './components/Skills';
 import {Projects} from './components/Projects';
-import {Faq} from './components/Faq';
 import {Contacts} from './components/Contacts';
 import {Footer} from './components/Footer';
 import {translations} from './components/LanguageSwitcher'
@@ -33,7 +32,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   <About />
                   <Skills />
                   <Projects />
-                  <Faq/>
+          
                   <Contacts />
                   <Footer/>
               </main>
