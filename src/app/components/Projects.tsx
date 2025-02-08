@@ -7,8 +7,8 @@ export function Projects() {
             technologies: [
                 "/img/tailwindcss-logo.svg", 
                 "/img/javascript-original.svg", 
-                "/img/react-original.svg", 
-                "/img/nodejs-original.svg"
+                "/img/react-original.svg",  
+                
             ]
         },
         { 
@@ -53,6 +53,20 @@ export function Projects() {
                 "/img/javascript-original.svg",
                 "/img/typescript-logo.svg",
                 "/img/nextjs-logo.svg",
+            ]
+        },
+        { 
+            name: "Project 6", 
+            description: "API-weather-forecast", 
+            link: "https://github.com/abreuclariana/API-weather-forecast",  
+            technologies: [
+                "/img/html5-original.svg", 
+                "/img/css3-original.svg", 
+                "/img/javascript-original.svg",
+                "/img/nodejs-original.svg",
+                "/img/nodemon-original.svg",
+                "/img/express-original.svg",
+
             ]
         },
     ];
