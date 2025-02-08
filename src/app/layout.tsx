@@ -32,7 +32,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   <About />
                   <Skills />
                   <Projects />
-          
                   <Contacts />
                   <Footer/>
               </main>

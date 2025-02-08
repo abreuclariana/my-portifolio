@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Header = () => {
   return (
-    <main className="container mx-auto flex flex-col items-center justify-center p-6">
+    <main className="container mx-auto flex flex-col items-center justify-center p-5">
       <header className="flex flex-col-reverse lg:flex-row items-center justify-center w-full h-screen py-8 text-center lg:text-left">
         
         {/* Texto e Botões */}

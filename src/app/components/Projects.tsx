@@ -58,7 +58,7 @@ export function Projects() {
     ];
 
     return (
-        <section id="projects" className="py-60 bg-zinc-900 text-center border-b border-zinc-700">
+        <section id="projects" className="py-40 bg-zinc-900 text-center border-b border-zinc-700">
             <h2 className="py-10 text-5xl font-bold mb-10 text-white">My Projects</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
                 {projects.map((project) => (

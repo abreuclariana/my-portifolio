@@ -1,4 +1,3 @@
-import { img } from 'framer-motion/m';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs } from 'react-icons/fa';
 
 export function Skills() {
@@ -15,7 +14,7 @@ export function Skills() {
     ];
 
     return (
-        <section id="skills" className="py-60 bg-zinc-900 text-center border-b border-gray-700">
+        <section id="skills" className="py-40 bg-zinc-900 text-center border-b border-gray-700">
             <h2 className="text-5xl font-bold mb-20 text-white">Skills</h2>
             <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-12 max-w-6xl mx-auto">
                 {skills.map((skill) => (
