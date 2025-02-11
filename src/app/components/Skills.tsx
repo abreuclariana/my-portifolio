@@ -4,12 +4,15 @@ export function Skills() {
     const skills = [
         { name: "HTML", icon: <FaHtml5 className="text-orange-500 text-4xl" /> },
         { name: "CSS", icon: <FaCss3Alt className="text-blue-500 text-4xl" /> },
+        { name: "Bootstrap", icon: <img src="/img/bootstrap-original.svg" alt="Bootstrap" className="w-12 h-12 mx-auto" /> },
         { name: "Tailwind CSS", icon: <img src="/img/tailwindcss-logo.svg" alt="Tailwind CSS" className="w-12 h-12 mx-auto" /> },
         { name: "JavaScript", icon: <FaJs className="text-yellow-500 text-4xl" /> },
         { name: "TypeScript", icon: <img src="/img/typescript-logo.svg" alt="TypeScript" className="w-12 h-12 mx-auto" /> },
         { name: "React", icon: <FaReact className="text-cyan-400 text-4xl" /> },
+        { name: "Vitejs", icon: <img src="/img/vitejs-original.svg" alt="Vitejs" className="w-12 h-12 mx-auto" /> },
         { name: "Next.js", icon: <img src="/img/nextjs-logo.svg" alt="Next.js" className="w-12 h-12 mx-auto" /> },
         { name: "Node.js", icon: <FaNodeJs className="text-green-500 text-4xl" /> },
+        { name: "WordPress", icon: <img src="/img/wordpress-original.svg" alt="WordPress" className="w-12 h-12 mx-auto" /> },
     ];
 
     return (
