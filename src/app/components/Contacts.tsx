@@ -6,7 +6,7 @@ export function Contacts() {
     <section id="contact" className="py-10 mt-20 text-center mb-10 px-6 scroll-smooth">
       <h2 className="text-5xl font-bold mb-20 text-gray-600 dark:text-gray-100">Contacts</h2>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 max-w-6xl mx-auto items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-1 gap-40 max-w-6xl mx-auto items-center">
         {/* Coluna da esquerda - Ícones de contato */}
         <div>
           <p className="text-2xl text-gray-600 dark:text-gray-200 max-w-lg mx-auto mb-12">
@@ -39,6 +39,7 @@ export function Contacts() {
         </div>
 
         {/* Coluna da direita - Formulário de contato */}
+        {/*
         <div className="p-10 rounded-xl shadow-xl border border-zinc-700 bg-gray-600 dark:bg-zinc-800 dark:border-zinc-600">
           <h3 className="text-3xl font-semibold text-white dark:text-gray-100 mb-2">
             How can we help?
@@ -83,6 +84,7 @@ export function Contacts() {
             </button>
           </form>
         </div>
+        */}
       </div>
     </section>
   );
