@@ -15,7 +15,7 @@ export function Skills() {
     return (
         <section
             id="skills"
-            className="py-10 mt-20 mb-20 text-center bg-white text-gray-600 dark:bg-zinc-900 dark:text-white"
+            className="py-10 mt-40 mb-20 text-center bg-white text-gray-600 dark:bg-zinc-900 dark:text-white scroll-smooth"
         >
             <h2 className="text-5xl font-bold mb-20">Skills</h2>
             <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-12 max-w-6xl mx-auto">

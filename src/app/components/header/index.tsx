@@ -55,8 +55,8 @@ export const Header = () => {
           {/* Imagem com prioridade e carga imediata */}
           <Image
             src="/img/linkedin.png"
-            width={400}
-            height={400}
+            width={500}
+            height={500}
             alt="LinkedIn Logo"
             priority={true} // Prioriza o carregamento da imagem
             loading="eager"  // Garante que a imagem seja carregada assim que possível

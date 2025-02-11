@@ -25,9 +25,9 @@ export function Services() {
   return (
     <section
       id="services"
-      className="py-10 mb-40 text-center bg-white text-gray-600 dark:bg-zinc-900 dark:text-white"
+      className="py-10 mb-20  mt-20 text-center bg-white text-gray-600 dark:bg-zinc-900 dark:text-white scroll-smooth"
     >
-      <h2 className="text-5xl font-bold mb-20">My Services</h2>
+      <h2 className="text-5xl font-bold mb-20">Services</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-7xl mx-auto">
         {services.map((service, index) => (
           <div

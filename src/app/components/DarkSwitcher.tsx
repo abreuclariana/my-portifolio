@@ -18,7 +18,10 @@ const ThemeChanger = () => {
   return (
     <div className="flex items-center">
       <button
-        onClick={() => setTheme(currentTheme === "dark" ? "light" : "dark")}
+         onClick={() => {
+          console.log('Current theme:', theme); // Verifique o valor do tema
+          setTheme(theme === "dark" ? "light" : "dark");
+        }}
         className="text-gray-500 dark:text-gray-300 rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-gray-100 focus:ring-opacity-20"
       >
         <span className="sr-only">Toggle Theme</span>

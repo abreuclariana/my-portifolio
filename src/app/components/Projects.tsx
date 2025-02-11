@@ -75,10 +75,10 @@ export function Projects() {
     return (
         <section 
             id="projects" 
-            className="py-10 mt-30 text-center bg-white text-gray-900 dark:bg-zinc-900 dark:text-white"
+            className="py-10 mt-35 text-center bg-white text-gray-900 dark:bg-zinc-900 dark:text-white scroll-smooth"
         >
             <h2 className="py-10 text-5xl font-bold mb-10 text-gray-600 dark:text-white">
-                My Projects
+                Projects
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
                 {projects.map((project) => (
