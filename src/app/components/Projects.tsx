@@ -5,8 +5,9 @@ export function Projects() {
             description: "API-weather-forecast", 
             link: "https://github.com/abreuclariana/API-weather-forecast",  
             technologies: [
-                "/img/html5-original.svg", 
-                "/img/css3-original.svg", 
+                "/img/ejs-original.svg", 
+                "/img/css3-original.svg",
+                "/img/bootstrap-original.svg",  
                 "/img/javascript-original.svg",
                 "/img/nodejs-original.svg",
                 "/img/nodemon-original.svg",

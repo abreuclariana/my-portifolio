@@ -12,6 +12,7 @@ export function Skills() {
         { name: "Vitejs", icon: <img src="/img/vitejs-original.svg" alt="Vitejs" className="w-12 h-12 mx-auto" /> },
         { name: "Next.js", icon: <img src="/img/nextjs-logo.svg" alt="Next.js" className="w-12 h-12 mx-auto" /> },
         { name: "Node.js", icon: <FaNodeJs className="text-green-500 text-4xl" /> },
+        { name: "EJS", icon: <img src="/img/ejs-original.svg" alt="EJS" className="w-12 h-12 mx-auto" /> },
         { name: "WordPress", icon: <img src="/img/wordpress-original.svg" alt="WordPress" className="w-12 h-12 mx-auto" /> },
     ];
 

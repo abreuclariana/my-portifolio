@@ -10,7 +10,7 @@ export function Contacts() {
         {/* Coluna da esquerda - Ícones de contato */}
         <div>
           <p className="text-2xl text-gray-600 dark:text-gray-200 max-w-lg mx-auto mb-12">
-            Contact me via the links below, or fill in the form
+            Contact me via the links below
           </p>
           <div className="flex justify-center gap-8 mt-6">
             <a
