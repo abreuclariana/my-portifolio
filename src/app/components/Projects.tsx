@@ -49,6 +49,9 @@ export function Projects() {
                 "/img/css3-original.svg", 
                 "/img/javascript-original.svg",
                 "/img/react-original.svg",
+                "/img/nodejs-original.svg",
+                "/img/nodemon-original.svg",
+                "/img/express-original.svg",
             ]
         },
         { 
