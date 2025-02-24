@@ -25,7 +25,7 @@ export const Navbar = () => {
 
           {/* ThemeChanger no Navbar, sem ThemeProvider */}
           <ThemeChanger />
-        </div>
+        </div>  
 
         {/* Menu de navegação para dispositivos maiores */}
         <div className="hidden text-center lg:flex lg:items-center">
