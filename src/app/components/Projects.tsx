@@ -67,11 +67,12 @@ export function Projects() {
         },
         { 
             name: "Project 6", 
-            description: "Drum Sounds Project", 
-            link: "https://github.com/abreuclariana/drum-sounds-project", 
+            description: "CL Burger Project", 
+            link: "https://github.com/abreuclariana/hamburger-shop-delivery", 
             technologies: [
                 "/img/html5-original.svg", 
                 "/img/css3-original.svg", 
+                "/img/tailwindcss-logo.svg", 
                 "/img/javascript-original.svg"
             ]
         },
