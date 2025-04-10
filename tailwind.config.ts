@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
     extend: {
+      minHeight: {
+        'screen-navbar': 'calc(100vh - 80px)',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

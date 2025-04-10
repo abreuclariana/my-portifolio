@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://clarianaabreu.dev
+
+# Sitemaps
+Sitemap: https://clarianaabreu.dev/sitemap.xml
