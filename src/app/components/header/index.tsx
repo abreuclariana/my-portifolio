@@ -54,8 +54,8 @@ export const Header = () => {
         <div className="w-full lg:w-1/2 flex justify-center">
           <Image
              src="/img/linkedin.webp"
-             width={350}
-             height={350}
+             width={400}
+             height={400}
              alt="Foto de Clariana Abreu"
              sizes="(max-width: 768px) 100vw, 50vw"
              priority
