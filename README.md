@@ -34,10 +34,10 @@
 ---
 
 ## 🚧 How to run locally
-
-    ```bash
+ 
  # Clone the repository
  
+     ```bash
       git clone https://github.com/abreuclariana/clariana-portfolio.git
       cd clariana-portfolio
 
