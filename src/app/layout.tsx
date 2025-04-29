@@ -10,7 +10,7 @@ import { Projects } from "./components/Projects";
 import { Contacts } from "./components/Contacts";
 import { Footer } from "./components/Footer";
 import Script from 'next/script'; // Importe o componente Script
-
+import PageViewTracker from "./utils/page_view"
 // ✅ NOVO BLOCO CORRETO
 export const viewport = {
   themeColor: "#FF0081",
@@ -84,6 +84,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       </head>
       <body className="bg-white text-black dark:bg-zinc-900 dark:text-white">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <PageViewTracker />
           <main className="container-center">
             <Navbar />
             <Header />
