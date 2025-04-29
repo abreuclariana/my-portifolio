@@ -9,6 +9,7 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contacts } from "./components/Contacts";
 import { Footer } from "./components/Footer";
+import Script from 'next/script';
 
 // ✅ NOVO BLOCO CORRETO
 export const viewport = {
@@ -68,6 +69,20 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className="bg-white text-black dark:bg-zinc-900 dark:text-white">
+        <head>
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-XVJP97R1F4`}
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XVJP97R1F4');
+          `}
+        </Script>
+        </head>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <main className="container-center">
             <Navbar />
