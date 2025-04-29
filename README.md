@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Clariana Abreu | Developer Portfolio
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Deployed on Vercel](https://img.shields.io/badge/Deployed-Vercel-000000?style=for-the-badge&logo=vercel)
 
-First, run the development server:
+🎯 A modern, responsive, performance-focused portfolio built with [Next.js](https://nextjs.org/), [React](https://react.dev/), and styled with Tailwind CSS.  
+🎨 Showcasing my projects, skills, services, and contact options — all in one place!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ⚡️ High performance and SEO optimized
+- 🌙 Light/Dark theme support (auto-switch based on system preferences)
+- 📱 Fully responsive design
+- 🔗 Social links to LinkedIn, GitHub, and contact
+- 💡 Clean component structure following best practices
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Technologies
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js 14](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [next-themes](https://www.npmjs.com/package/next-themes)
+- [ESLint + Prettier](https://eslint.org/)
+- [Vercel](https://vercel.com/) for deployment
+- [next-sitemap](https://github.com/iamvishnusankar/next-sitemap) for SEO
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚧 How to run locally
+ 
+ # Clone the repository
+ 
+     ```bash
+      git clone https://github.com/abreuclariana/clariana-portfolio.git
+      cd clariana-portfolio
 
-## Deploy on Vercel
+ # Install dependencies
+ 
+      npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Run the development server
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+      npm run dev
+
+# Visit: http://localhost:3000
+
+🌍 Live Demo
+🔗 https://clarianaabreu.vercel.app/
+
+
+📄 License
+
+This project is licensed under the MIT License.
+
+ Built with care by Clariana Abreu
