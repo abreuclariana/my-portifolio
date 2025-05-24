@@ -9,7 +9,6 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contacts } from "./components/Contacts";
 import { Footer } from "./components/Footer";
-import PageViewTracker from "./utils/page_view"
 
 // ✅ NOVO BLOCO CORRETO
 export const viewport = {
@@ -70,7 +69,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="en" suppressHydrationWarning>
       <body className="bg-white text-black dark:bg-zinc-900 dark:text-white">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-        <PageViewTracker />
+        
           <main className="container-center">
             <Navbar />
             <Header />
