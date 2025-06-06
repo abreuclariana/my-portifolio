@@ -2,6 +2,18 @@ export function Projects() {
     const projects = [
         { 
             name: "Project 1", 
+            description: "Shoutex inSEO Chrome Extension", 
+            link: "https://chromewebstore.google.com/detail/shoutex-inseo/lognkgbmklicmgphmdiioneegmcancbh",  
+            technologies: [
+                 "/img/html5-original.svg", 
+                "/img/css3-original.svg",   
+                "/img/javascript-original.svg",
+                
+            ]
+        },
+
+        { 
+            name: "Project 2", 
             description: "API-weather-forecast", 
             link: "https://github.com/abreuclariana/API-weather-forecast",  
             technologies: [
@@ -14,7 +26,7 @@ export function Projects() {
             ]
         },
         { 
-            name: "Project 2", 
+            name: "Project 3", 
             description: "My Portifólio", 
             link: "https://github.com/abreuclariana/my-portifolio",  
             technologies: [
@@ -28,7 +40,7 @@ export function Projects() {
         },
        
         { 
-            name: "Project 3", 
+            name: "Project 4", 
             description: "🔒 Authentication System", 
             link: "https://github.com/abreuclariana/register-authentication",  
             technologies: [ 
@@ -41,20 +53,7 @@ export function Projects() {
                 "/img/mongoose-original.svg",
             ]
         },
-        { 
-            name: "Project 4", 
-            description: "Web Form Application", 
-            link: "https://github.com/abreuclariana/web-form-application", 
-            technologies: [
-                "/img/tailwindcss-logo.svg", 
-                "/img/javascript-original.svg", 
-                "/img/react-original.svg",  
-                "/img/nodejs-original.svg",
-                "/img/nodemon-original.svg",
-                "/img/express-original.svg",
-            ]
-        },
-
+        
         { 
             name: "Project 5", 
             description: "Modal Pop-Up", 
