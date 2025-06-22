@@ -65,14 +65,16 @@ export function Projects() {
             ]
         },
         { 
-            name: "Project 6", 
-            description: "CL Burger Project", 
-            link: "https://github.com/abreuclariana/hamburger-shop-delivery", 
+            name: "Project 4",
+            description: "Web Form Application", 
+            link: "https://github.com/abreuclariana/web-form-application", 
             technologies: [
-                "/img/html5-original.svg", 
-                "/img/css3-original.svg", 
                 "/img/tailwindcss-logo.svg", 
-                "/img/javascript-original.svg"
+                "/img/javascript-original.svg", 
+                "/img/react-original.svg",  
+                "/img/nodejs-original.svg",
+                "/img/nodemon-original.svg",
+                "/img/express-original.svg",
             ]
         },
     ];
