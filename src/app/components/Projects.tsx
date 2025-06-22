@@ -65,7 +65,7 @@ export function Projects() {
             ]
         },
         { 
-            name: "Project 4",
+            name: "Project 6",
             description: "Web Form Application", 
             link: "https://github.com/abreuclariana/web-form-application", 
             technologies: [
