@@ -1,16 +1,20 @@
-import React from "react";
+"use client";
+
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { useTranslation } from "../../contexts/TranslationContext";
 
 export function Contacts() {
+  const { t } = useTranslation();
+  
   return (
     <section id="contact" className="py-10 mt-20 text-center mb-10 px-6 scroll-smooth">
-      <h2 className="text-5xl font-bold mb-20 text-gray-600 dark:text-gray-100">Contacts</h2>
+      <h2 className="text-5xl font-bold mb-20 text-gray-600 dark:text-gray-100">{t("contacts.title")}</h2>
 
       <div className="grid grid-cols-1 lg:grid-cols-1 gap-40 max-w-6xl mx-auto items-center">
         {/* Coluna da esquerda - Ícones de contato */}
         <div>
           <p className="text-2xl text-gray-600 dark:text-gray-200 max-w-lg mx-auto mb-12">
-            Contact me via the links below
+            {t("contacts.description")}
           </p>
           <div className="flex justify-center gap-8 mt-6">
             <a

@@ -13,23 +13,25 @@
 ## ✨ Features
 
 - ⚡️ High performance and SEO optimized
+- 🌍 Multi-language support (English, Portuguese, Spanish)
 - 🌙 Light/Dark theme support (auto-switch based on system preferences)
 - 📱 Fully responsive design
 - 🔗 Social links to LinkedIn, GitHub, and contact
 - 💡 Clean component structure following best practices
+- 🚀 Code splitting and lazy loading for optimal performance
 
 ---
 
 ## 🛠️ Technologies
 
-- [Next.js 14](https://nextjs.org/)
-- [React](https://react.dev/)
+- [Next.js 15](https://nextjs.org/)
+- [React 19](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [next-themes](https://www.npmjs.com/package/next-themes)
-- [ESLint + Prettier](https://eslint.org/)
-- [Vercel](https://vercel.com/) for deployment
+- [React Icons](https://react-icons.github.io/react-icons/)
 - [next-sitemap](https://github.com/iamvishnusankar/next-sitemap) for SEO
+- [Vercel](https://vercel.com/) for deployment
 
 ---
 

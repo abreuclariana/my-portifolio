@@ -1,13 +1,19 @@
+﻿"use client";
+
 import Link from "next/link";
 import ThemeChanger from "./DarkSwitcher";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useTranslation } from "../../contexts/TranslationContext";
 
 export const Navbar = () => {
+  const { t } = useTranslation();
+  
   const navigation = [
-    { name: "About me", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Skills", href: "#skills" },
-    { name: "Projects", href: "#projects" },
-    { name: "Contacts", href: "#contact" },
+    { name: t("navbar.about"), href: "#about" },
+    { name: t("navbar.services"), href: "#services" },
+    { name: t("navbar.skills"), href: "#skills" },
+    { name: t("navbar.projects"), href: "#projects" },
+    { name: t("navbar.contacts"), href: "#contact" },
   ];
 
   return (
@@ -39,7 +45,7 @@ export const Navbar = () => {
         </div>
 
         {/* Navegação principal - desktop */}
-        <div className="hidden text-center lg:flex lg:items-center">
+        <div className="hidden text-center lg:flex lg:items-center lg:ml-28">
           <ul
             role="menubar"
             className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex"
@@ -58,16 +64,19 @@ export const Navbar = () => {
         </div>
 
         {/* Ações: Get Started + ThemeChanger */}
-        <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2 flex items-center">
+        <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2 flex items-center lg:mr-24">
           <div className="hidden mr-3 lg:flex nav__item">
             <Link
               href="/"
-              aria-label="Início - Ir para o topo da página"
+              aria-label={t("navbar.goToTop")}
               className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5"
             >
-              Get Started
+              {t("navbar.getStarted")}
             </Link>
           </div>
+
+          {/* Componente de alternância de idioma */}
+          <LanguageSwitcher />
 
           {/* Componente de alternância de tema */}
           <ThemeChanger />

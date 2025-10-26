@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "title": "Clariana Abreu | Desarrolladora Front-End",
+    "description": "Portafolio profesional de Clariana Abreu, desarrolladora Front-End especializada en React, Next.js y Node.js.",
+    "keywords": [
+      "Clariana Abreu",
+      "Desarrolladora Front-End",
+      "React",
+      "Next.js",
+      "Portafolio",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "openGraph": {
+      "title": "Clariana Abreu | Full Stack Developer",
+      "description": "Explora los proyectos y habilidades de Clariana Abreu en desarrollo web moderno.",
+      "alt": "Banner de Clariana Abreu"
+    },
+    "twitter": {
+      "title": "Clariana Abreu | Desarrolladora Front-End",
+      "description": "Portafolio de proyectos modernos con React, Next.js y más."
+    }
+  },
+  "navbar": {
+    "about": "Sobre mí",
+    "services": "Servicios",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contacts": "Contactos",
+    "getStarted": "Comenzar",
+    "openMenu": "Abrir menú",
+    "goToTop": "Ir al inicio de la página"
+  },
+  "header": {
+    "jobTitle": "Desarrolladora Front-End",
+    "getInTouch": "¡Ponte en contacto!",
+    "viewOnGitHub": "Ver en GitHub",
+    "profileAlt": "Foto de Clariana Abreu"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "paragraph1": "Soy una desarrolladora apasionada por la tecnología y la programación, con un título en Análisis y Desarrollo de Sistemas de Estácio de Sá, y 3 años de experiencia sólida en Desarrollo Web. Tengo experiencia en diversas tecnologías, incluyendo React, Next.js y otras herramientas modernas para crear aplicaciones web. Mi objetivo es siempre entregar soluciones efectivas y de alta calidad. Además, tengo experiencia creando sitios web con WordPress y Elementor, asegurando diseños visualmente atractivos y bien estructurados adaptados a las necesidades del cliente.",
+    "paragraph2": "Además, serví durante 3 años en la Armada Brasileña, donde trabajé como Técnica de Soporte al Usuario en el sector de Servicio de Tecnología de la Información (ITS) de la Base Naval de Aratu, lo que me dio una visión amplia de tecnología de la información y sistemas.",
+    "photoAlt": "Foto de Clariana Abreu"
+  },
+  "services": {
+    "title": "Servicios",
+    "technicalSupport": {
+      "title": "Soporte Técnico",
+      "description": "Ofrezco soporte técnico completo para la implementación, optimización y mantenimiento de su sitio web. Monitoreo el rendimiento, corrijo fallas, realizo actualizaciones y ajustes según sus necesidades, asegurando que el sitio funcione de manera eficiente, segura y alineada con sus objetivos comerciales."
+    },
+    "websiteCreation": {
+      "title": "Creación de Sitios Web",
+      "description": "Desarrollo sitios web personalizados desde cero, con un diseño atractivo acorde a su identidad visual. Utilizo frameworks modernos como ReactJS y NextJS, así como la creación de sitios web usando WordPress con Elementor. También ofrezco mantenimiento continuo, asegurando que el sitio esté siempre actualizado y funcionando de manera óptima."
+    },
+    "exclusiveCustomizations": {
+      "title": "Personalizaciones Exclusivas",
+      "description": "Si su sitio web actual no refleja lo que necesita, ofrezco personalizaciones exclusivas para adaptar el diseño y las funcionalidades, alineándolas exactamente con la imagen que desea transmitir a sus clientes."
+    }
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "technologies": "Tecnologías",
+    "project1": {
+      "name": "Proyecto 1",
+      "description": "Extensión Shoutex inSEO para Chrome"
+    },
+    "project2": {
+      "name": "Proyecto 2",
+      "description": "API-previsión del tiempo"
+    },
+    "project3": {
+      "name": "Proyecto 3",
+      "description": "Mi Portafolio"
+    },
+    "project4": {
+      "name": "Proyecto 4",
+      "description": "🔒 Sistema de Autenticación"
+    },
+    "project5": {
+      "name": "Proyecto 5",
+      "description": "Modal Pop-Up"
+    },
+    "project6": {
+      "name": "Proyecto 6",
+      "description": "Aplicación de Formulario Web"
+    }
+  },
+  "contacts": {
+    "title": "Contactos",
+    "description": "Contáctame a través de los enlaces a continuación",
+    "githubAlt": "GitHub",
+    "linkedinAlt": "LinkedIn",
+    "emailAlt": "Correo electrónico",
+    "formTitle": "¿Cómo podemos ayudarte?",
+    "formDescription": "Generalmente respondemos en unas horas.",
+    "formName": "Nombre Completo",
+    "formNamePlaceholder": "Ingresa tu nombre completo",
+    "formEmail": "Correo Electrónico",
+    "formEmailPlaceholder": "Ingresa tu correo electrónico",
+    "formMessage": "Tu Mensaje",
+    "formMessagePlaceholder": "Escribe tu mensaje aquí...",
+    "formSubmit": "Enviar Mensaje"
+  },
+  "footer": {
+    "copyright": "© 2025 Todos los Derechos Reservados"
+  }
+}

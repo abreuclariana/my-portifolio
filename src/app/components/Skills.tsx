@@ -1,6 +1,10 @@
+"use client";
+
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs } from 'react-icons/fa';
+import { useTranslation } from "../../contexts/TranslationContext";
 
 export function Skills() {
+    const { t } = useTranslation();
     const skills = [
         { name: "HTML", icon: <FaHtml5 className="text-orange-500 text-4xl" /> },
         { name: "CSS", icon: <FaCss3Alt className="text-blue-500 text-4xl" /> },
@@ -21,7 +25,7 @@ export function Skills() {
             id="skills"
             className="py-10 mt-40 mb-20 text-center bg-white text-gray-600 dark:bg-zinc-900 dark:text-white scroll-smooth"
         >
-            <h2 className="text-5xl font-bold mb-20">Skills</h2>
+            <h2 className="text-5xl font-bold mb-20">{t("skills.title")}</h2>
             <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-12 max-w-6xl mx-auto">
                 {skills.map((skill) => (
                     <li

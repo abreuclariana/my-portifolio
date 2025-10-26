@@ -1,21 +1,26 @@
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import React, { ReactNode } from "react";
+import type { ReactNode } from "react";
+import dynamic from "next/dynamic";
+import { TranslationProvider } from "../contexts/TranslationContext";
 import { Navbar } from "./components/Navbar";
 import { Header } from "./components/header";
-import { Services } from './components/Services';
-import { About } from "./components/About";
-import { Skills } from "./components/Skills";
-import { Projects } from "./components/Projects";
-import { Contacts } from "./components/Contacts";
-import { Footer } from "./components/Footer";
+
+const About = dynamic(() => import("./components/About").then(mod => mod.About), { ssr: true });
+const Services = dynamic(() => import('./components/Services').then(mod => mod.Services), { ssr: true });
+const Skills = dynamic(() => import("./components/Skills").then(mod => mod.Skills), { ssr: true });
+const Projects = dynamic(() => import("./components/Projects").then(mod => mod.Projects), { ssr: true });
+const Contacts = dynamic(() => import("./components/Contacts").then(mod => mod.Contacts), { ssr: true });
+const Footer = dynamic(() => import("./components/Footer").then(mod => mod.Footer), { ssr: true });
 
 // ✅ NOVO BLOCO CORRETO
 export const viewport = {
   themeColor: "#FF0081",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
 };
 
-// ✅ SEM o themeColor aqui
 export const metadata = {
   metadataBase: new URL('https://clariana.vercel.app'),
   title: "Clariana Abreu | Front-End Developer",
@@ -23,7 +28,7 @@ export const metadata = {
     "Portfólio profissional de Clariana Abreu, desenvolvedora Front-End especializada em React, Next.js e Node.js.",
   keywords: [
     "Clariana Abreu",
-    "Feont-End Developer",
+    "Front-End Developer",
     "React",
     "Next.js",
     "Portfólio",
@@ -68,19 +73,20 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className="bg-white text-black dark:bg-zinc-900 dark:text-white">
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-        
-          <main className="container-center">
-            <Navbar />
-            <Header />
-            <About />
-            <Services />
-            <Skills />
-            <Projects />
-            <Contacts />
-            <Footer />
-          </main>
-          {children}
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
+          <TranslationProvider>
+            <main className="container-center">
+              <Navbar />
+              <Header />
+              <About />
+              <Services />
+              <Skills />
+              <Projects />
+              <Contacts />
+              <Footer />
+            </main>
+            {children}
+          </TranslationProvider>
         </ThemeProvider>
       </body>
     </html>

@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "title": "Clariana Abreu | Front-End Developer",
+    "description": "Professional portfolio of Clariana Abreu, Front-End developer specialized in React, Next.js and Node.js.",
+    "keywords": [
+      "Clariana Abreu",
+      "Front-End Developer",
+      "React",
+      "Next.js",
+      "Portfolio",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "openGraph": {
+      "title": "Clariana Abreu | Full Stack Developer",
+      "description": "Explore the projects and skills of Clariana Abreu in modern web development.",
+      "alt": "Clariana Abreu Banner"
+    },
+    "twitter": {
+      "title": "Clariana Abreu | Front-End Developer",
+      "description": "Portfolio of modern projects with React, Next.js and more."
+    }
+  },
+  "navbar": {
+    "about": "About me",
+    "services": "Services",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contacts": "Contacts",
+    "getStarted": "Get Started",
+    "openMenu": "Open menu",
+    "goToTop": "Go to top of page"
+  },
+  "header": {
+    "jobTitle": "Front-End Developer",
+    "getInTouch": "Get in touch!",
+    "viewOnGitHub": "View on GitHub",
+    "profileAlt": "Clariana Abreu's photo"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "I'm a developer with a passion for technology and programming, with a degree in Systems Analysis and Development from Estácio de Sá, and 3 years solid experience in Web Development. I have experience in various technologies, including React, Next.js, and other modern tools for creating web applications. My goal is always to deliver effective, high-quality solutions. Additionally, I have experience creating websites with WordPress and Elementor, ensuring visually appealing and well-structured designs tailored to client needs.",
+    "paragraph2": "In addition, I served for 3 years in the Brazilian Navy, where I worked as a User Support Technician in the Information Technology Service (ITS) sector at the Aratu Naval Base, giving me a broad view of information technology and systems.",
+    "photoAlt": "Photo of Clariana Abreu"
+  },
+  "services": {
+    "title": "Services",
+    "technicalSupport": {
+      "title": "Technical Support",
+      "description": "I offer complete technical support for the implementation, optimization and maintenance of your website. I monitor performance, correct faults, make updates and adjustments according to your needs, ensuring that the site works efficiently, securely and in line with your business objectives."
+    },
+    "websiteCreation": {
+      "title": "Website Creation",
+      "description": "I develop customized websites from scratch, with an attractive design in line with your visual identity. I use modern frameworks such as ReactJS and NextJS, as well as creating websites using WordPress with Elementor. I also offer ongoing maintenance, ensuring that the site is always up-to-date and working optimally."
+    },
+    "exclusiveCustomizations": {
+      "title": "Exclusive customizations",
+      "description": "If your current website doesn't reflect what you need, I offer exclusive customizations to adapt the design and functionalities, aligning it exactly with the image you want to convey to your customers."
+    }
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "projects": {
+    "title": "Projects",
+    "technologies": "Technologies",
+    "project1": {
+      "name": "Project 1",
+      "description": "Shoutex inSEO Chrome Extension"
+    },
+    "project2": {
+      "name": "Project 2",
+      "description": "API-weather-forecast"
+    },
+    "project3": {
+      "name": "Project 3",
+      "description": "My Portfolio"
+    },
+    "project4": {
+      "name": "Project 4",
+      "description": "🔒 Authentication System"
+    },
+    "project5": {
+      "name": "Project 5",
+      "description": "Modal Pop-Up"
+    },
+    "project6": {
+      "name": "Project 6",
+      "description": "Web Form Application"
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "description": "Contact me via the links below",
+    "githubAlt": "GitHub",
+    "linkedinAlt": "LinkedIn",
+    "emailAlt": "Email",
+    "formTitle": "How can we help?",
+    "formDescription": "We usually respond in a few hours.",
+    "formName": "Full Name",
+    "formNamePlaceholder": "Enter your full name",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "Enter your email",
+    "formMessage": "Your Message",
+    "formMessagePlaceholder": "Write your message here...",
+    "formSubmit": "Send Message"
+  },
+  "footer": {
+    "copyright": "© 2025 All Rights Reserved"
+  }
+}

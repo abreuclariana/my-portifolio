@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "title": "Clariana Abreu | Desenvolvedora Front-End",
+    "description": "Portfólio profissional de Clariana Abreu, desenvolvedora Front-End especializada em React, Next.js e Node.js.",
+    "keywords": [
+      "Clariana Abreu",
+      "Desenvolvedora Front-End",
+      "React",
+      "Next.js",
+      "Portfólio",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "openGraph": {
+      "title": "Clariana Abreu | Full Stack Developer",
+      "description": "Explore os projetos e habilidades de Clariana Abreu no desenvolvimento web moderno.",
+      "alt": "Banner de Clariana Abreu"
+    },
+    "twitter": {
+      "title": "Clariana Abreu | Desenvolvedora Front-End",
+      "description": "Portfólio de projetos modernos com React, Next.js e mais."
+    }
+  },
+  "navbar": {
+    "about": "Sobre mim",
+    "services": "Serviços",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "contacts": "Contatos",
+    "getStarted": "Começar",
+    "openMenu": "Abrir menu",
+    "goToTop": "Ir para o topo da página"
+  },
+  "header": {
+    "jobTitle": "Desenvolvedora Front-End",
+    "getInTouch": "Entre em contato!",
+    "viewOnGitHub": "Ver no GitHub",
+    "profileAlt": "Foto de Clariana Abreu"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "paragraph1": "Sou uma desenvolvedora apaixonada por tecnologia e programação, com formação em Análise e Desenvolvimento de Sistemas pela Estácio de Sá, e 3 anos de experiência sólida em Desenvolvimento Web. Tenho experiência em diversas tecnologias, incluindo React, Next.js e outras ferramentas modernas para criar aplicações web. Meu objetivo é sempre entregar soluções eficazes e de alta qualidade. Além disso, tenho experiência na criação de sites com WordPress e Elementor, garantindo designs visualmente atraentes e bem estruturados adaptados às necessidades do cliente.",
+    "paragraph2": "Além disso, servi por 3 anos na Marinha do Brasil, onde trabalhei como Técnica de Suporte ao Usuário no setor de Serviço de Tecnologia da Informação (ITS) da Base Naval de Aratu, o que me deu uma visão ampla de tecnologia da informação e sistemas.",
+    "photoAlt": "Foto de Clariana Abreu"
+  },
+  "services": {
+    "title": "Serviços",
+    "technicalSupport": {
+      "title": "Suporte Técnico",
+      "description": "Ofereço suporte técnico completo para a implementação, otimização e manutenção do seu site. Monitore o desempenho, corrijo falhas, faço atualizações e ajustes de acordo com suas necessidades, garantindo que o site funcione de forma eficiente, segura e alinhada aos seus objetivos comerciais."
+    },
+    "websiteCreation": {
+      "title": "Criação de Sites",
+      "description": "Desenvolvo sites personalizados do zero, com um design atraente em conformidade com sua identidade visual. Uso frameworks modernos como ReactJS e NextJS, além de criar sites usando WordPress com Elementor. Também ofereço manutenção contínua, garantindo que o site esteja sempre atualizado e funcionando de forma ideal."
+    },
+    "exclusiveCustomizations": {
+      "title": "Personalizações Exclusivas",
+      "description": "Se seu site atual não reflete o que você precisa, ofereço personalizações exclusivas para adaptar o design e as funcionalidades, alinhando exatamente com a imagem que você deseja transmitir aos seus clientes."
+    }
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "projects": {
+    "title": "Projetos",
+    "technologies": "Tecnologias",
+    "project1": {
+      "name": "Projeto 1",
+      "description": "Extensão Shoutex inSEO para Chrome"
+    },
+    "project2": {
+      "name": "Projeto 2",
+      "description": "API-previsão do tempo"
+    },
+    "project3": {
+      "name": "Projeto 3",
+      "description": "Meu Portfólio"
+    },
+    "project4": {
+      "name": "Projeto 4",
+      "description": "🔒 Sistema de Autenticação"
+    },
+    "project5": {
+      "name": "Projeto 5",
+      "description": "Modal Pop-Up"
+    },
+    "project6": {
+      "name": "Projeto 6",
+      "description": "Aplicação de Formulário Web"
+    }
+  },
+  "contacts": {
+    "title": "Contatos",
+    "description": "Entre em contato através dos links abaixo",
+    "githubAlt": "GitHub",
+    "linkedinAlt": "LinkedIn",
+    "emailAlt": "Email",
+    "formTitle": "Como podemos ajudar?",
+    "formDescription": "Normalmente respondemos em algumas horas.",
+    "formName": "Nome Completo",
+    "formNamePlaceholder": "Digite seu nome completo",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "Digite seu email",
+    "formMessage": "Sua Mensagem",
+    "formMessagePlaceholder": "Escreva sua mensagem aqui...",
+    "formSubmit": "Enviar Mensagem"
+  },
+  "footer": {
+    "copyright": "© 2025 Todos os Direitos Reservados"
+  }
+}

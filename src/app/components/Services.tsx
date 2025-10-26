@@ -1,23 +1,25 @@
+"use client";
+
 import { FaDesktop, FaCode, FaCogs } from "react-icons/fa";
+import { useTranslation } from "../../contexts/TranslationContext";
 
 export function Services() {
+  const { t } = useTranslation();
+  
   const services = [
     {
-      title: "Technical Support",
-      description:
-        "I offer complete technical support for the implementation, optimization and maintenance of your website. I monitor performance, correct faults, make updates and adjustments according to your needs, ensuring that the site works efficiently, securely and in line with your business objectives.",
+      title: t("services.technicalSupport.title"),
+      description: t("services.technicalSupport.description"),
       icon: <FaCogs className="text-indigo-600 text-4xl" />,
     },
     {
-      title: "Website Creation",
-      description:
-        "I develop customized websites from scratch, with an attractive design in line with your visual identity. I use modern frameworks such as ReactJS and NextJS, as well as creating websites using WordPress with Elementor. I also offer ongoing maintenance, ensuring that the site is always up-to-date and working optimally.",
+      title: t("services.websiteCreation.title"),
+      description: t("services.websiteCreation.description"),
       icon: <FaCode className="text-indigo-600 text-4xl" />,
     },
     {
-      title: "Exclusive customizations",
-      description:
-        "If your current website doesn't reflect what you need, I offer exclusive customizations to adapt the design and functionalities, aligning it exactly with the image you want to convey to your customers.",
+      title: t("services.exclusiveCustomizations.title"),
+      description: t("services.exclusiveCustomizations.description"),
       icon: <FaDesktop className="text-indigo-600 text-4xl" />,
     },
   ];
@@ -27,7 +29,7 @@ export function Services() {
       id="services"
       className="py-10 mb-20  mt-20 text-center bg-white text-gray-600 dark:bg-zinc-900 dark:text-white scroll-smooth"
     >
-      <h2 className="text-5xl font-bold mb-20">Services</h2>
+      <h2 className="text-5xl font-bold mb-20">{t("services.title")}</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-7xl mx-auto">
         {services.map((service, index) => (
           <div
