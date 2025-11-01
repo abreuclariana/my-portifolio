@@ -7,21 +7,21 @@ export function Contacts() {
   const { t } = useTranslation();
   
   return (
-    <section id="contact" className="py-10 mt-20 text-center mb-10 px-6 scroll-smooth">
-      <h2 className="text-5xl font-bold mb-20 text-gray-600 dark:text-gray-100">{t("contacts.title")}</h2>
+    <section id="contact" className="py-8 md:py-10 mt-12 md:mt-16 lg:mt-20 text-center mb-8 md:mb-10 px-4 sm:px-6 md:px-8 scroll-smooth">
+      <h2 className="text-4xl md:text-5xl font-bold mb-12 md:mb-16 lg:mb-20 text-gray-600 dark:text-gray-100">{t("contacts.title")}</h2>
 
-      <div className="grid grid-cols-1 lg:grid-cols-1 gap-40 max-w-6xl mx-auto items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-1 gap-20 md:gap-32 lg:gap-40 max-w-6xl mx-auto items-center">
         {/* Coluna da esquerda - Ícones de contato */}
         <div>
-          <p className="text-2xl text-gray-600 dark:text-gray-200 max-w-lg mx-auto mb-12">
+          <p className="text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-200 max-w-lg mx-auto mb-8 md:mb-10 lg:mb-12 px-2">
             {t("contacts.description")}
           </p>
-          <div className="flex justify-center gap-8 mt-6">
+          <div className="flex justify-center gap-6 md:gap-7 lg:gap-8 mt-4 md:mt-5 lg:mt-6">
             <a
               href="https://github.com/abreuclariana"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-all text-4xl dark:text-gray-400 dark:hover:text-white"
+              className="text-gray-400 hover:text-white transition-all text-3xl md:text-3xl lg:text-4xl dark:text-gray-400 dark:hover:text-white"
             >
               <FaGithub />
             </a>
@@ -29,13 +29,13 @@ export function Contacts() {
               href="https://linkedin.com/in/clariana-abreu-dev/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-all text-4xl dark:text-gray-400 dark:hover:text-white"
+              className="text-gray-400 hover:text-white transition-all text-3xl md:text-3xl lg:text-4xl dark:text-gray-400 dark:hover:text-white"
             >
               <FaLinkedin />
             </a>
             <a
               href="mailto:abreuclariana@gmail.com"
-              className="text-gray-400 hover:text-white transition-all text-4xl dark:text-gray-400 dark:hover:text-white"
+              className="text-gray-400 hover:text-white transition-all text-3xl md:text-3xl lg:text-4xl dark:text-gray-400 dark:hover:text-white"
             >
               <FaEnvelope />
             </a>

@@ -39,8 +39,8 @@
   },
   "about": {
     "title": "Sobre Mí",
-    "paragraph1": "Soy una desarrolladora apasionada por la tecnología y la programación, con un título en Análisis y Desarrollo de Sistemas de Estácio de Sá, y 3 años de experiencia sólida en Desarrollo Web. Tengo experiencia en diversas tecnologías, incluyendo React, Next.js y otras herramientas modernas para crear aplicaciones web. Mi objetivo es siempre entregar soluciones efectivas y de alta calidad. Además, tengo experiencia creando sitios web con WordPress y Elementor, asegurando diseños visualmente atractivos y bien estructurados adaptados a las necesidades del cliente.",
-    "paragraph2": "Además, serví durante 3 años en la Armada Brasileña, donde trabajé como Técnica de Soporte al Usuario en el sector de Servicio de Tecnología de la Información (ITS) de la Base Naval de Aratu, lo que me dio una visión amplia de tecnología de la información y sistemas.",
+    "paragraph1": "Soy una Especialista Frontend Altamente Enfocada, impulsada por la precisión y la resolución efectiva de problemas. Mi experiencia está centrada en TypeScript, React y Next.js, tecnologías que utilizo para construir interfaces de usuario altamente responsivas, accesibles y escalables.",
+    "paragraph2": "Durante 3 años, serví como Técnica de Redes de Computadoras en la Marina de Brasil, experiencia que me proporcionó un enfoque disciplinado y sistemático para resolver problemas complejos. Esta formación complementa mi pasión por convertir requisitos desafiantes en código limpio y listo para producción. Mi experiencia abarca todo el ciclo de desarrollo de la arquitectura Front-end moderna—desde la implementación visual hasta la integración con APIs RESTful—garantizando confiabilidad, rendimiento y entrega de valor medible en proyectos globales.",
     "photoAlt": "Foto de Clariana Abreu"
   },
   "services": {
