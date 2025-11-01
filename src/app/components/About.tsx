@@ -9,7 +9,7 @@ export function About() {
   return (
     <section id="about" className="mt-10 py-10 text-center scroll-smooth">
       {/* Título centralizado */}
-      <h2 className="text-5xl font-bold mb-20 text-gray-600 dark:text-gray-100">
+      <h2 className="text-4xl md:text-5xl font-bold mb-12 md:mb-16 lg:mb-20 text-gray-600 dark:text-gray-100">
         {t("about.title")}
       </h2>
 
