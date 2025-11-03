@@ -16,12 +16,30 @@ export function Projects() {
                 "/img/vitejs-original.svg",
                 "/img/tailwindcss-logo.svg",
                 "/img/vitest-original.svg",
-                "/img/postgresql-original.svg"
+                "/img/nginx-original.svg",
+                "/img/nodejs-original.svg",
+                "/img/postgresql-original.svg",
+                
                 
             ]
         },
+        {
+            name: "Project 2",
+            description: "Next.js TS Consulting Scheduler (In Development)",
+            link: "https://github.com/abreuclariana/nextjs-ts-consulting-scheduler",
+            technologies: [
+                "/img/nextjs-logo.svg",
+                "/img/react-original.svg",
+                "/img/typescript-logo.svg",
+                "/img/tailwindcss-logo.svg",
+                "img/zustand-original.svg",
+                "img/supabase-original.svg",
+                "/img/postgresql-original.svg",
+                "img/vercel-original.svg",
+            ]
+        },
         { 
-            name: "Project 2", 
+            name: "Project 3", 
             description: "Shoutex inSEO Chrome Extension", 
             link: "https://chromewebstore.google.com/detail/shoutex-inseo/lognkgbmklicmgphmdiioneegmcancbh",  
             technologies: [
@@ -32,7 +50,7 @@ export function Projects() {
             ]
         },
         { 
-            name: "Project 3", 
+            name: "Project 4", 
             description: "Realtime-External-API-Integration-Example", 
             link: "https://github.com/abreuclariana/API-weather-forecast",  
             technologies: [
@@ -45,19 +63,23 @@ export function Projects() {
             ]
         },
         { 
-            name: "Project 4", 
+            name: "Project 5", 
             description: "My Portifólio", 
             link: "https://github.com/abreuclariana/my-portifolio",  
             technologies: [
-                 
-                "/img/tailwindcss-logo.svg", 
-                "/img/javascript-original.svg",
-                "/img/typescript-logo.svg",
+                
                 "/img/nextjs-logo.svg",
+                "/img/react-original.svg",
+                "img/framermotion-original.svg",
+                "/img/typescript-logo.svg",
+                "/img/css3-original.svg",
+                "/img/tailwindcss-logo.svg", 
+                "/img/javascript-original.svg",                    
+                
             ]
         },
         { 
-            name: "Project 5", 
+            name: "Project 6", 
             description: "Authentication System", 
             link: "https://github.com/abreuclariana/register-authentication",  
             technologies: [ 
@@ -70,16 +92,7 @@ export function Projects() {
                 "/img/mongoose-original.svg",
             ]
         },
-        { 
-            name: "Project 6", 
-            description: "Business-Interactive-Modal-Component", 
-            link: "https://github.com/abreuclariana/tipscode-modal", 
-            technologies: [
-                "/img/html5-original.svg", 
-                "/img/css3-original.svg", 
-                "/img/javascript-original.svg"
-            ]
-        },
+       
         
     ];
 
