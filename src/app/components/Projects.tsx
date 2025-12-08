@@ -74,8 +74,7 @@ export function Projects() {
                 "/img/typescript-logo.svg",
                 "/img/css3-original.svg",
                 "/img/tailwindcss-logo.svg", 
-                "/img/javascript-original.svg",                    
-                
+                "/img/javascript-original.svg",
             ]
         },
         { 
