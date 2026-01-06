@@ -1,6 +1,6 @@
 "use client";
 
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaBriefcase } from "react-icons/fa";
 import { useTranslation } from "../../contexts/TranslationContext";
 
 export function Contacts() {
@@ -34,10 +34,12 @@ export function Contacts() {
               <FaLinkedin />
             </a>
             <a
-              href="mailto:abreuclariana@gmail.com"
+              href="https://www.upwork.com/freelancers/~01d2dbae59f1642147?viewMode=1"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-all text-3xl md:text-3xl lg:text-4xl dark:text-gray-400 dark:hover:text-white"
             >
-              <FaEnvelope />
+              <FaBriefcase />
             </a>
           </div>
         </div>

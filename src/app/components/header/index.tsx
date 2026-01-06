@@ -21,7 +21,7 @@ export const Header = () => {
 
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mt-4 w-full sm:w-auto">
             <a
-              href="https://linkedin.com/in/clariana-abreu-dev/"
+              href="https://www.upwork.com/freelancers/~01d2dbae59f1642147?viewMode=1"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 md:px-8 py-3 md:py-4 text-base md:text-lg font-medium text-white bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg hover:from-indigo-700 hover:to-purple-700 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-center"
