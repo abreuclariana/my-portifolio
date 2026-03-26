@@ -22,7 +22,7 @@ export function Projects() {
         },
         {
             key: "saasBooking",
-            inDevelopment: true,
+            inDevelopment: false,
             link: "https://github.com/abreuclariana/nextjs-ts-consulting-scheduler",
             technologies: [
                 "/img/nextjs-logo.svg",
