@@ -1,6 +1,6 @@
 "use client";
 
-import { FaDesktop, FaCode, FaCogs } from "react-icons/fa";
+import { FaUserTie, FaLaptopCode, FaNetworkWired } from "react-icons/fa";
 import { useTranslation } from "../../contexts/TranslationContext";
 
 export function Services() {
@@ -10,17 +10,17 @@ export function Services() {
     {
       title: t("services.technicalSupport.title"),
       description: t("services.technicalSupport.description"),
-      icon: <FaCogs className="text-indigo-600 text-4xl" />,
+      icon: <FaUserTie className="text-indigo-600 text-4xl" />,
     },
     {
       title: t("services.websiteCreation.title"),
       description: t("services.websiteCreation.description"),
-      icon: <FaCode className="text-indigo-600 text-4xl" />,
+      icon: <FaLaptopCode className="text-indigo-600 text-4xl" />,
     },
     {
       title: t("services.exclusiveCustomizations.title"),
       description: t("services.exclusiveCustomizations.description"),
-      icon: <FaDesktop className="text-indigo-600 text-4xl" />,
+      icon: <FaNetworkWired className="text-indigo-600 text-4xl" />,
     },
   ];
 

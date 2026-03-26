@@ -12,7 +12,7 @@ export const Header = () => {
         {/* Texto e Botões */}
         <div className="flex flex-col items-center md:items-start w-full md:w-1/2 gap-4 md:gap-6 md:ml-8 lg:ml-24">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-snug tracking-tight text-gray-800 dark:text-white drop-shadow-sm text-center md:text-left">
-            Clariana Abreu
+            Clariana Silva de Abreu
           </h1>
 
           <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-500 dark:text-gray-300 font-medium text-center md:text-left">

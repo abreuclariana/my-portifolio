@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "Clariana Abreu | Front-End Developer",
-    "description": "Professional portfolio of Clariana Abreu, Front-End developer specialized in React, Next.js and Node.js.",
+    "title": "Clariana Silva de Abreu | Full Stack Developer",
+    "description": "Professional portfolio of Clariana Silva de Abreu, a Full Stack Developer focused on scalable architecture, React/Next.js and Node.js.",
     "keywords": [
       "Clariana Abreu",
-      "Front-End Developer",
+      "Full Stack Developer",
       "React",
       "Next.js",
       "Portfolio",
@@ -17,13 +17,13 @@
       "alt": "Clariana Abreu Banner"
     },
     "twitter": {
-      "title": "Clariana Abreu | Front-End Developer",
-      "description": "Portfolio of modern projects with React, Next.js and more."
+      "title": "Clariana Silva de Abreu | Full Stack Developer",
+      "description": "Portfolio featuring full stack experience, microservices, and modern web products."
     }
   },
   "navbar": {
     "about": "About me",
-    "services": "Services",
+    "services": "Experience",
     "skills": "Skills",
     "projects": "Projects",
     "contacts": "Contacts",
@@ -32,66 +32,59 @@
     "goToTop": "Go to top of page"
   },
   "header": {
-    "jobTitle": "Front-End Developer",
+    "jobTitle": "Lead Full Stack Developer",
     "getInTouch": "Get in touch!",
     "viewOnGitHub": "View on GitHub",
     "profileAlt": "Clariana Abreu's photo"
   },
   "about": {
     "title": "About Me",
-    "paragraph1": "I am a Highly Focused Frontend Specialist driven by precision and effective problem-solving. My expertise is centered on TypeScript, React, and Next.js, technologies I use to build highly responsive, accessible, and scalable user interfaces.",
-    "paragraph2": "For 3 years, I served as a Computer Network Technician in the Brazilian Navy, an experience that provided me with a disciplined and systematic approach to solving complex problems. This background complements my passion for turning challenging requirements into clean, production-ready code. My experience spans the full development cycle of modern Front-end architecture—from visual implementation to RESTful API integration—ensuring reliability, performance, and measurable value delivery in global projects.",
+    "paragraph1": "I am a Lead Full Stack Developer with 4 years of experience building high-performance architectures. I currently lead technical initiatives at The Galindo Consulting Group, coordinating distributed teams and end-to-end delivery for international corporate and government clients.",
+    "paragraph2": "My core expertise includes the React/Next.js ecosystem and scalable microservices with Node.js, Python, and Supabase. As a Top-Rated specialist in SaaS and B2B marketplaces, I also apply the discipline I developed in the Brazilian Navy to deliver secure, predictable, and production-ready systems.",
     "photoAlt": "Photo of Clariana Abreu"
   },
   "services": {
-    "title": "Services",
+    "title": "Professional Experience",
     "technicalSupport": {
-      "title": "Technical Support",
-      "description": "I offer complete technical support for the implementation, optimization and maintenance of your website. I monitor performance, correct faults, make updates and adjustments according to your needs, ensuring that the site works efficiently, securely and in line with your business objectives."
+      "title": "Lead Developer - The Galindo Consulting Group",
+      "description": "Technical leadership of a specialized team delivering high-impact full stack solutions for corporate and government sectors. Responsible for code reviews, architecture decisions, incident response, and technical-business alignment in international negotiations."
     },
     "websiteCreation": {
-      "title": "Website Creation",
-      "description": "I develop customized websites from scratch, with an attractive design in line with your visual identity. I use modern frameworks such as ReactJS and NextJS, as well as creating websites using WordPress with Elementor. I also offer ongoing maintenance, ensuring that the site is always up-to-date and working optimally."
+      "title": "Full Stack Developer - SaaS MVP Specialist (Upwork)",
+      "description": "Top-Rated specialist building MVPs for international startups with React, Next.js, Node.js, and Supabase. Delivered Chrome extensions with TypeScript and Shadow DOM, plus UI/UX, SEO, and OpenAI API integrations for AI-first and DeepTech products."
     },
     "exclusiveCustomizations": {
-      "title": "Exclusive customizations",
-      "description": "If your current website doesn't reflect what you need, I offer exclusive customizations to adapt the design and functionalities, aligning it exactly with the image you want to convey to your customers."
+      "title": "Computer Network Technician - Brazilian Navy",
+      "description": "Worked on network infrastructure maintenance, physical and virtual server administration, and operational continuity in a high-security environment. This experience strengthened my discipline, precision, and focus on reliability for critical systems."
     }
   },
   "skills": {
     "title": "Skills"
   },
   "projects": {
-    "title": "Projects",
+    "title": "Featured Projects",
     "technologies": "Technologies",
-    "project1": {
-      "name": "Project 1",
-      "description": "Shoutex inSEO Chrome Extension"
+    "inDevelopment": "In development",
+    "happyKids": {
+      "name": "Happy-Kids Education Platform",
+      "description": "Educational platform focused on positive psychology, responsive UX, and a Node.js/Express microservice for interactive exercises."
     },
-    "project2": {
-      "name": "Project 2",
-      "description": "API-weather-forecast"
+    "saasBooking": {
+      "name": "AI-Augmented SaaS Booking Platform",
+      "description": "Full stack scheduling solution built with Next.js, Supabase (RLS), OpenAI API, and Stripe for secure payments."
     },
-    "project3": {
-      "name": "Project 3",
-      "description": "My Portfolio"
+    "shoutex": {
+      "name": "AI Chrome Extension (Shoutex)",
+      "description": "Chrome extension (Manifest V3) for real-time SEO analysis with DOM-based logic and a foundation ready for OpenAI integration."
     },
-    "project4": {
-      "name": "Project 4",
-      "description": "🔒 Authentication System"
-    },
-    "project5": {
-      "name": "Project 5",
-      "description": "Modal Pop-Up"
-    },
-    "project6": {
-      "name": "Project 6",
-      "description": "Web Form Application"
+    "authSystem": {
+      "name": "Authentication System",
+      "description": "Secure authentication architecture using Node.js, Express, MongoDB, Mongoose, and Bcrypt for protected registration and login flows."
     }
   },
   "contacts": {
     "title": "Contacts",
-    "description": "Contact me via the links below",
+    "description": "Available for Full Stack opportunities and technical leadership roles.",
     "githubAlt": "GitHub",
     "linkedinAlt": "LinkedIn",
     "emailAlt": "Email",

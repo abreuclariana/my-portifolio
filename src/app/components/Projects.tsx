@@ -7,92 +7,55 @@ export function Projects() {
     
     const projects = [
         { 
-            name: "Project 1", 
-            description: "Happy Kids Educational Plataform (In Development)", 
+            key: "happyKids",
+            inDevelopment: true,
             link: "https://github.com/MVP-Psicologia-Positiva/happy-kids-frontend",  
             technologies: [
                 "/img/react-original.svg",
                 "/img/typescript-logo.svg",
                 "/img/vitejs-original.svg",
                 "/img/tailwindcss-logo.svg",
-                "/img/vitest-original.svg",
-                "/img/nginx-original.svg",
                 "/img/nodejs-original.svg",
                 "/img/postgresql-original.svg",
-                
-                
+                "/img/express-original.svg"
             ]
         },
         {
-            name: "Project 2",
-            description: "Next.js TS Consulting Scheduler (In Development)",
+            key: "saasBooking",
+            inDevelopment: true,
             link: "https://github.com/abreuclariana/nextjs-ts-consulting-scheduler",
             technologies: [
                 "/img/nextjs-logo.svg",
                 "/img/react-original.svg",
                 "/img/typescript-logo.svg",
                 "/img/tailwindcss-logo.svg",
-                "img/zustand-original.svg",
-                "img/supabase-original.svg",
+                "/img/supabase-original.svg",
                 "/img/postgresql-original.svg",
-                "img/vercel-original.svg",
+                "/img/vercel-original.svg"
             ]
         },
         { 
-            name: "Project 3", 
-            description: "Shoutex inSEO Chrome Extension", 
+            key: "shoutex",
+            inDevelopment: false,
             link: "https://chromewebstore.google.com/detail/shoutex-inseo/lognkgbmklicmgphmdiioneegmcancbh",  
             technologies: [
-                 "/img/html5-original.svg", 
+                "/img/html5-original.svg", 
                 "/img/css3-original.svg",   
-                "/img/javascript-original.svg",
-                
+                "/img/javascript-original.svg"
             ]
         },
         { 
-            name: "Project 4", 
-            description: "Realtime-External-API-Integration-Example", 
-            link: "https://github.com/abreuclariana/API-weather-forecast",  
-            technologies: [
-                "/img/ejs-original.svg", 
-                "/img/bootstrap-original.svg",  
-                "/img/javascript-original.svg",
-                "/img/nodejs-original.svg",
-                "/img/nodemon-original.svg",
-                "/img/express-original.svg",
-            ]
-        },
-        { 
-            name: "Project 5", 
-            description: "My Portifólio", 
-            link: "https://github.com/abreuclariana/my-portifolio",  
-            technologies: [
-                
-                "/img/nextjs-logo.svg",
-                "/img/react-original.svg",
-                "img/framermotion-original.svg",
-                "/img/typescript-logo.svg",
-                "/img/css3-original.svg",
-                "/img/tailwindcss-logo.svg", 
-                "/img/javascript-original.svg",
-            ]
-        },
-        { 
-            name: "Project 6", 
-            description: "Authentication System", 
+            key: "authSystem",
+            inDevelopment: false,
             link: "https://github.com/abreuclariana/register-authentication",  
-            technologies: [ 
-                "/img/ejs-original.svg",  
+            technologies: [
                 "/img/javascript-original.svg",
                 "/img/nodejs-original.svg",
-                "/img/nodemon-original.svg",
                 "/img/express-original.svg",
                 "/img/mongodb-original.svg",
-                "/img/mongoose-original.svg",
+                "/img/mongoose-original.svg"
             ]
-        },
-       
-        
+        }
     ];
 
     return (
@@ -106,7 +69,7 @@ export function Projects() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-7 lg:gap-8 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
                 {projects.map((project) => (
                     <a
-                        key={project.name}
+                        key={project.key}
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -126,21 +89,21 @@ export function Projects() {
                         {/* Conteúdo */}
                         <div className="relative z-10">
                             {/* Badge para projetos em desenvolvimento */}
-                            {project.description.includes("In Development") && (
+                            {project.inDevelopment && (
                                 <span className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-4 text-xs font-bold text-indigo-700 dark:text-indigo-300 bg-gradient-to-r from-indigo-100 to-purple-100 dark:from-indigo-900/60 dark:to-purple-900/60 rounded-full shadow-sm">
                                     <span className="relative flex h-2 w-2">
                                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
                                         <span className="relative inline-flex rounded-full h-2 w-2 bg-indigo-500"></span>
                                     </span>
-                                    In Development
+                                    {t("projects.inDevelopment")}
                                 </span>
                             )}
                             
                             <h3 className="text-xl md:text-xl lg:text-2xl font-bold mb-2 md:mb-2.5 lg:mb-3 text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors duration-300 leading-tight">
-                                {project.name}
+                                {t(`projects.${project.key}.name`)}
                             </h3>
                             <p className="text-sm md:text-base leading-relaxed text-gray-600 dark:text-gray-300 mb-4 md:mb-5 lg:mb-6 min-h-[3rem] md:min-h-[3.25rem] lg:min-h-[3.5rem]">
-                                {project.description}
+                                {t(`projects.${project.key}.description`)}
                             </p>
 
                             {/* Tecnologias */}

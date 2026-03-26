@@ -1,6 +1,6 @@
 "use client";
 
-import { FaGithub, FaLinkedin, FaBriefcase } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaBriefcase, FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 import { useTranslation } from "../../contexts/TranslationContext";
 
 export function Contacts() {
@@ -41,6 +41,22 @@ export function Contacts() {
             >
               <FaBriefcase />
             </a>
+          </div>
+          <div className="mt-8 space-y-3 text-sm md:text-base text-gray-600 dark:text-gray-300">
+            <p className="flex items-center justify-center gap-2">
+              <FaMapMarkerAlt className="text-indigo-500" />
+              Sao Paulo, Brazil
+            </p>
+            <p className="flex items-center justify-center gap-2">
+              <FaPhone className="text-indigo-500" />
+              +55 (71) 99195-0348
+            </p>
+            <p className="flex items-center justify-center gap-2">
+              <FaEnvelope className="text-indigo-500" />
+              <a href="mailto:abreuclariana@gmail.com" className="hover:text-indigo-500 transition-colors">
+                abreuclariana@gmail.com
+              </a>
+            </p>
           </div>
         </div>
 

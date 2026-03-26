@@ -23,12 +23,12 @@ export const viewport = {
 
 export const metadata = {
   metadataBase: new URL('https://clariana.vercel.app'),
-  title: "Clariana Abreu | Front-End Developer",
+  title: "Clariana Silva de Abreu | Full Stack Developer",
   description:
-    "Portfólio profissional de Clariana Abreu, desenvolvedora Front-End especializada em React, Next.js e Node.js.",
+    "Portfólio profissional de Clariana Silva de Abreu, Full Stack Developer com foco em React, Next.js, Node.js e arquitetura escalável.",
   keywords: [
     "Clariana Abreu",
-    "Front-End Developer",
+    "Full Stack Developer",
     "React",
     "Next.js",
     "Portfólio",
@@ -42,8 +42,8 @@ export const metadata = {
     icon: "/favicon.ico",
   },
   openGraph: {
-    title: "Clariana Abreu | Full Stack Developer",
-    description: "Explore os projetos e habilidades de Clariana Abreu no desenvolvimento web moderno.",
+    title: "Clariana Silva de Abreu | Full Stack Developer",
+    description: "Explore projetos, experiencia e habilidades full stack em produtos escalaveis e de alta performance.",
     url: "https://clarianaabreu.vercel.app/", // substitua com seu domínio real
     siteName: "Clariana Abreu",
     images: [
@@ -58,8 +58,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Clariana Abreu | Front-End Developer",
-    description: "Portfólio de projetos modernos com React, Next.js e mais.",
+    title: "Clariana Silva de Abreu | Full Stack Developer",
+    description: "Portfólio com experiencia full stack, microservicos e produtos web modernos.",
     creator: "@clariana.abreu", // opcional, substitua pelo seu user real do Twitter se tiver
     images: ["/preview.png"],
   },

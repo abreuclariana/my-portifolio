@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "Clariana Abreu | Desarrolladora Front-End",
-    "description": "Portafolio profesional de Clariana Abreu, desarrolladora Front-End especializada en React, Next.js y Node.js.",
+    "title": "Clariana Silva de Abreu | Full Stack Developer",
+    "description": "Portafolio profesional de Clariana Silva de Abreu, Full Stack Developer enfocada en arquitectura escalable, React/Next.js y Node.js.",
     "keywords": [
       "Clariana Abreu",
-      "Desarrolladora Front-End",
+      "Full Stack Developer",
       "React",
       "Next.js",
       "Portafolio",
@@ -17,13 +17,13 @@
       "alt": "Banner de Clariana Abreu"
     },
     "twitter": {
-      "title": "Clariana Abreu | Desarrolladora Front-End",
-      "description": "Portafolio de proyectos modernos con React, Next.js y más."
+      "title": "Clariana Silva de Abreu | Full Stack Developer",
+      "description": "Portafolio con experiencia full stack, microservicios y productos web modernos."
     }
   },
   "navbar": {
     "about": "Sobre mí",
-    "services": "Servicios",
+    "services": "Experiencia",
     "skills": "Habilidades",
     "projects": "Proyectos",
     "contacts": "Contactos",
@@ -32,66 +32,59 @@
     "goToTop": "Ir al inicio de la página"
   },
   "header": {
-    "jobTitle": "Desarrolladora Front-End",
+    "jobTitle": "Lead Full Stack Developer",
     "getInTouch": "¡Ponte en contacto!",
     "viewOnGitHub": "Ver en GitHub",
     "profileAlt": "Foto de Clariana Abreu"
   },
   "about": {
     "title": "Sobre Mí",
-    "paragraph1": "Soy una Especialista Frontend Altamente Enfocada, impulsada por la precisión y la resolución efectiva de problemas. Mi experiencia está centrada en TypeScript, React y Next.js, tecnologías que utilizo para construir interfaces de usuario altamente responsivas, accesibles y escalables.",
-    "paragraph2": "Durante 3 años, serví como Técnica de Redes de Computadoras en la Marina de Brasil, experiencia que me proporcionó un enfoque disciplinado y sistemático para resolver problemas complejos. Esta formación complementa mi pasión por convertir requisitos desafiantes en código limpio y listo para producción. Mi experiencia abarca todo el ciclo de desarrollo de la arquitectura Front-end moderna—desde la implementación visual hasta la integración con APIs RESTful—garantizando confiabilidad, rendimiento y entrega de valor medible en proyectos globales.",
+    "paragraph1": "Soy Lead Full Stack Developer con 4 años de experiencia en arquitecturas de alto rendimiento. Actualmente lidero iniciativas técnicas en The Galindo Consulting Group, coordinando equipos distribuidos y entregas end-to-end para clientes corporativos y gubernamentales internacionales.",
+    "paragraph2": "Mi enfoque principal está en el ecosistema React/Next.js y en microservicios escalables con Node.js, Python y Supabase. Como especialista Top-Rated en SaaS y marketplaces B2B, aplico también la disciplina desarrollada en la Marina de Brasil para entregar sistemas seguros, predecibles y listos para producción.",
     "photoAlt": "Foto de Clariana Abreu"
   },
   "services": {
-    "title": "Servicios",
+    "title": "Experiencia Profesional",
     "technicalSupport": {
-      "title": "Soporte Técnico",
-      "description": "Ofrezco soporte técnico completo para la implementación, optimización y mantenimiento de su sitio web. Monitoreo el rendimiento, corrijo fallas, realizo actualizaciones y ajustes según sus necesidades, asegurando que el sitio funcione de manera eficiente, segura y alineada con sus objetivos comerciales."
+      "title": "Lead Developer - The Galindo Consulting Group",
+      "description": "Liderazgo técnico de un equipo especializado para entregar soluciones full stack de alto impacto para sectores corporativos y gubernamentales. Responsable de code reviews, decisiones de arquitectura, gestión de incidentes y alineación técnico-comercial en negociaciones internacionales."
     },
     "websiteCreation": {
-      "title": "Creación de Sitios Web",
-      "description": "Desarrollo sitios web personalizados desde cero, con un diseño atractivo acorde a su identidad visual. Utilizo frameworks modernos como ReactJS y NextJS, así como la creación de sitios web usando WordPress con Elementor. También ofrezco mantenimiento continuo, asegurando que el sitio esté siempre actualizado y funcionando de manera óptima."
+      "title": "Full Stack Developer - SaaS MVP Specialist (Upwork)",
+      "description": "Especialista Top-Rated creando MVPs para startups internacionales con React, Next.js, Node.js y Supabase. Desarrollo de extensiones Chrome con TypeScript y Shadow DOM, ademas de optimizaciones de UI/UX, SEO e integraciones con OpenAI API para productos AI-first y DeepTech."
     },
     "exclusiveCustomizations": {
-      "title": "Personalizaciones Exclusivas",
-      "description": "Si su sitio web actual no refleja lo que necesita, ofrezco personalizaciones exclusivas para adaptar el diseño y las funcionalidades, alineándolas exactamente con la imagen que desea transmitir a sus clientes."
+      "title": "Tecnica de Redes - Marina de Brasil",
+      "description": "Mantenimiento de infraestructura de red, administracion de servidores fisicos y virtuales, y continuidad operativa en un entorno de alta seguridad. Esta experiencia fortalecio mi disciplina, precision y enfoque en la confiabilidad de sistemas criticos."
     }
   },
   "skills": {
     "title": "Habilidades"
   },
   "projects": {
-    "title": "Proyectos",
+    "title": "Proyectos Destacados",
     "technologies": "Tecnologías",
-    "project1": {
-      "name": "Proyecto 1",
-      "description": "Extensión Shoutex inSEO para Chrome"
+    "inDevelopment": "En desarrollo",
+    "happyKids": {
+      "name": "Happy-Kids Education Platform",
+      "description": "Plataforma educativa enfocada en psicología positiva, UX responsiva y microservicio Node.js/Express para ejercicios interactivos."
     },
-    "project2": {
-      "name": "Proyecto 2",
-      "description": "API-previsión del tiempo"
+    "saasBooking": {
+      "name": "AI-Augmented SaaS Booking Platform",
+      "description": "Solución full stack de agendamiento con Next.js, Supabase (RLS), OpenAI API y Stripe para pagos seguros."
     },
-    "project3": {
-      "name": "Proyecto 3",
-      "description": "Mi Portafolio"
+    "shoutex": {
+      "name": "AI Chrome Extension (Shoutex)",
+      "description": "Extensión de Chrome (Manifest V3) para análisis SEO en tiempo real con lógica DOM y base preparada para integración con OpenAI."
     },
-    "project4": {
-      "name": "Proyecto 4",
-      "description": "🔒 Sistema de Autenticación"
-    },
-    "project5": {
-      "name": "Proyecto 5",
-      "description": "Modal Pop-Up"
-    },
-    "project6": {
-      "name": "Proyecto 6",
-      "description": "Aplicación de Formulario Web"
+    "authSystem": {
+      "name": "Authentication System",
+      "description": "Arquitectura segura de autenticación con Node.js, Express, MongoDB, Mongoose y Bcrypt para flujos protegidos de registro e inicio de sesión."
     }
   },
   "contacts": {
     "title": "Contactos",
-    "description": "Contáctame a través de los enlaces a continuación",
+    "description": "Disponible para oportunidades Full Stack y liderazgo tecnico.",
     "githubAlt": "GitHub",
     "linkedinAlt": "LinkedIn",
     "emailAlt": "Correo electrónico",
