@@ -7,9 +7,9 @@ export function About() {
   const { t } = useTranslation();
   
   return (
-    <section id="about" className="mt-10 py-10 text-center scroll-smooth">
+    <section id="about" className="mt-10 py-14 text-center scroll-smooth">
       {/* Título centralizado */}
-      <h2 className="text-4xl md:text-5xl font-bold mb-12 md:mb-16 lg:mb-20 text-gray-600 dark:text-gray-100">
+      <h2 className="text-4xl md:text-5xl font-normal mb-12 md:mb-16 lg:mb-20 text-slate-800 dark:text-[#f0f4ff]">
         {t("about.title")}
       </h2>
 
@@ -18,7 +18,7 @@ export function About() {
         
         {/* Imagem - Sempre acima */}
         <div className="w-full flex items-center justify-center">
-          <div className="w-full max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-5xl min-h-[350px] sm:min-h-[400px] md:min-h-[450px] lg:min-h-[500px] relative rounded-2xl overflow-hidden shadow-2xl border-2 md:border-3 lg:border-4 border-gray-200 dark:border-gray-700 bg-white dark:bg-zinc-800 p-2 sm:p-3 md:p-4">
+          <div className="w-full max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-5xl min-h-[350px] sm:min-h-[400px] md:min-h-[450px] lg:min-h-[500px] relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-white/10 bg-white dark:bg-[#141720] p-2 sm:p-3 md:p-4">
             <Image
               src="/img/background.jpg"
               alt={t("about.photoAlt")}
@@ -32,11 +32,11 @@ export function About() {
 
         {/* Texto - Sempre abaixo */}
         <div className="w-full max-w-3xl md:max-w-4xl lg:max-w-6xl text-justify flex flex-col justify-center px-2 sm:px-4 md:px-6">
-         <p className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed tracking-wide dark:text-gray-100 text-gray-600 mb-4 md:mb-6">
+         <p className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed tracking-wide text-slate-700 dark:text-gray-300 mb-4 md:mb-6">
           {t("about.paragraph1")}
          </p>
 
-         <p className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed tracking-wide dark:text-gray-100 text-gray-600">
+         <p className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed tracking-wide text-slate-700 dark:text-gray-300">
           {t("about.paragraph2")}
         </p>
 

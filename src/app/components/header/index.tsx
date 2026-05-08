@@ -7,24 +7,31 @@ export const Header = () => {
   const { t } = useTranslation();
   return (
     <main className="container mx-auto flex flex-col items-center justify-center px-4 sm:px-5 md:px-6">
-      <header className="flex flex-col-reverse md:flex-row items-center justify-between w-full py-12 md:py-16 lg:py-24 min-h-screen-navbar gap-6 md:gap-8 lg:gap-12">
+      <header className="flex flex-col-reverse md:flex-row items-center justify-between w-full py-12 md:py-16 lg:py-24 min-h-screen-navbar gap-8 md:gap-12 lg:gap-16">
         
         {/* Texto e Botões */}
         <div className="flex flex-col items-center md:items-start w-full md:w-1/2 gap-4 md:gap-6 md:ml-8 lg:ml-24">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-snug tracking-tight text-gray-800 dark:text-white drop-shadow-sm text-center md:text-left">
+          <p className="text-[10px] sm:text-xs tracking-[0.22em] uppercase font-bold text-cyan-600 dark:text-cyan-300">
+            Especialista em SaaS B2B Escaláveis
+          </p>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-normal leading-tight tracking-tight text-slate-800 dark:text-[#f0f4ff] drop-shadow-sm text-center md:text-left">
             Clariana Abreu
           </h1>
 
-          <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-500 dark:text-gray-300 font-medium text-center md:text-left">
+          <h2 className="text-xl md:text-2xl lg:text-3xl text-slate-600 dark:text-gray-300 font-medium text-center md:text-left max-w-xl">
             {t("header.jobTitle")}
           </h2>
+
+          <p className="text-sm md:text-base text-slate-500 dark:text-gray-400 text-center md:text-left max-w-xl">
+            📊 50+ clientes | 🚀 30+ SaaS em produção | ⭐ Top-Rated Upwork
+          </p>
 
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mt-4 w-full sm:w-auto">
             <a
               href="https://www.upwork.com/freelancers/~01d2dbae59f1642147?viewMode=1"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 md:px-8 py-3 md:py-4 text-base md:text-lg font-medium text-white bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg hover:from-indigo-700 hover:to-purple-700 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-center"
+              className="px-6 md:px-8 py-3 md:py-4 text-base md:text-lg font-semibold text-white dark:text-[#07080c] bg-cyan-600 dark:bg-cyan-300 rounded-full hover:bg-cyan-700 dark:hover:bg-cyan-200 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-center"
             >
               {t("header.getInTouch")}
             </a>
@@ -33,7 +40,7 @@ export const Header = () => {
               href="https://github.com/abreuclariana"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-white transition-all duration-300 group"
+              className="flex items-center justify-center gap-2 text-slate-600 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-300 transition-all duration-300 group"
             >
               <svg
                 width="24"
@@ -57,7 +64,7 @@ export const Header = () => {
 
         {/* Imagem */}
         <div className="w-full md:w-1/2 flex justify-center">
-          <div className="relative transform hover:scale-105 transition-transform duration-500 w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 xl:w-[400px] xl:h-[400px]">
+          <div className="relative transform hover:scale-105 transition-transform duration-500 w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 xl:w-[400px] xl:h-[400px] rounded-full overflow-hidden shadow-[0_0_50px_rgba(0,229,255,0.14)] border-4 border-white dark:border-white/15">
             <Image
                src="/img/linkedin.webp"
                width={400}
@@ -65,7 +72,7 @@ export const Header = () => {
                alt={t("header.profileAlt")}
                sizes="(max-width: 768px) 256px, (max-width: 1024px) 320px, 400px"
                priority
-               className="rounded-full w-full h-full object-cover"
+               className="w-full h-full object-cover rounded-full"
             />
           </div>
         </div>

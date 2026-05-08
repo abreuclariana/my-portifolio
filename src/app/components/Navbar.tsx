@@ -20,7 +20,7 @@ export const Navbar = () => {
     <div className="w-full">
       <nav
         aria-label="Main Navigation"
-        className="container relative flex flex-wrap items-center justify-between px-4 sm:px-6 md:px-8 lg:px-10 py-4 sm:py-6 md:py-8 lg:py-10 mx-auto lg:justify-between"
+        className="container sticky top-0 z-50 flex flex-wrap items-center justify-between px-4 sm:px-6 md:px-8 lg:px-10 py-4 sm:py-5 mx-auto lg:justify-between bg-white/80 dark:bg-[#07080c]/80 backdrop-blur-xl border-b border-slate-200 dark:border-white/10"
       >
         {/* Botão do menu mobile */}
         <div className="md:hidden flex items-center">
@@ -54,7 +54,7 @@ export const Navbar = () => {
               <li role="menuitem" className="mr-1 md:mr-1.5 lg:mr-2 xl:mr-3 nav__item" key={index}>
                 <a
                   href={menu.href}
-                  className="inline-block px-1.5 md:px-2 lg:px-3 xl:px-4 py-2 text-xs md:text-sm lg:text-base xl:text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800 transition-colors"
+                  className="inline-block px-1.5 md:px-2 lg:px-3 xl:px-4 py-2 text-xs md:text-sm lg:text-base xl:text-lg font-medium text-slate-700 dark:text-gray-300 no-underline rounded-md hover:text-cyan-600 dark:hover:text-cyan-300 focus:text-cyan-600 dark:focus:text-cyan-300 focus:bg-slate-100 dark:focus:bg-white/5 focus:outline-none transition-colors"
                 >
                   {menu.name}
                 </a>
@@ -69,7 +69,7 @@ export const Navbar = () => {
             <Link
               href="/"
               aria-label={t("navbar.goToTop")}
-              className="px-2 md:px-3 lg:px-4 xl:px-5 2xl:px-6 py-2 text-xs md:text-xs lg:text-sm xl:text-base font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700 transition-colors whitespace-nowrap"
+              className="px-2 md:px-3 lg:px-4 xl:px-5 2xl:px-6 py-2 text-xs md:text-xs lg:text-sm xl:text-base font-semibold text-[#07080c] bg-cyan-300 rounded-full hover:bg-cyan-200 transition-colors whitespace-nowrap"
             >
               {t("navbar.getStarted")}
             </Link>

@@ -6,24 +6,14 @@ export function Projects() {
     const { t } = useTranslation();
     
     const projects = [
-        { 
-            key: "happyKids",
-            inDevelopment: true,
-            link: "https://github.com/MVP-Psicologia-Positiva/happy-kids-frontend",  
-            technologies: [
-                "/img/react-original.svg",
-                "/img/typescript-logo.svg",
-                "/img/vitejs-original.svg",
-                "/img/tailwindcss-logo.svg",
-                "/img/nodejs-original.svg",
-                "/img/postgresql-original.svg",
-                "/img/express-original.svg"
-            ]
-        },
         {
             key: "saasBooking",
             inDevelopment: false,
             link: "https://github.com/abreuclariana/nextjs-ts-consulting-scheduler",
+            screenshots: [
+                { src: "/img/saas.png", label: "saas" },
+                { src: "/img/saas1.png", label: "saas1" }
+            ],
             technologies: [
                 "/img/nextjs-logo.svg",
                 "/img/react-original.svg",
@@ -34,36 +24,61 @@ export function Projects() {
                 "/img/vercel-original.svg"
             ]
         },
+         { 
+            key: "beepr",
+            inDevelopment: false,
+            link: "https://apps.apple.com/us/app/beepr-your-cannabis-your-way/id6749667346",  
+            image: "/img/beepr_icon.png",
+            screenshots: [
+                { src: "/img/loc-not.jfif", label: "loc-not" },
+                { src: "/img/captura-de-tela.png", label: "captura-de-tela" }
+            ],
+            technologies: [
+                "/img/react-original.svg",
+                "/img/typescript-logo.svg",
+                "/img/supabase-original.svg",
+                "/img/postgresql-original.svg"
+            ]
+        },
+        { 
+            key: "happyKids",
+            inDevelopment: true,
+            link: "https://www.linkedin.com/feed/update/urn:li:activity:7398733254893387776/",  
+            screenshots: [
+                { src: "/img/lulu-home.png", label: "lulu-home" },
+                { src: "/img/emotions-feelings.png", label: "emotions-feelings" }
+            ],
+            technologies: [
+                "/img/react-original.svg",
+                "/img/typescript-logo.svg",
+                "/img/vitejs-original.svg",
+                "/img/tailwindcss-logo.svg",
+                "/img/nodejs-original.svg",
+                "/img/postgresql-original.svg",
+                "/img/express-original.svg"
+            ]
+        },
         { 
             key: "shoutex",
             inDevelopment: false,
             link: "https://chromewebstore.google.com/detail/shoutex-inseo/lognkgbmklicmgphmdiioneegmcancbh",  
+            image: "/img/banner1.png",
             technologies: [
                 "/img/html5-original.svg", 
                 "/img/css3-original.svg",   
                 "/img/javascript-original.svg"
             ]
         },
-        { 
-            key: "authSystem",
-            inDevelopment: false,
-            link: "https://github.com/abreuclariana/register-authentication",  
-            technologies: [
-                "/img/javascript-original.svg",
-                "/img/nodejs-original.svg",
-                "/img/express-original.svg",
-                "/img/mongodb-original.svg",
-                "/img/mongoose-original.svg"
-            ]
-        }
+      
+       
     ];
 
     return (
         <section 
             id="projects" 
-            className="py-10 mt-10 text-center bg-white text-gray-900 dark:bg-zinc-900 dark:text-white scroll-smooth"
+            className="py-12 mt-10 text-center text-slate-800 dark:text-gray-100 scroll-smooth"
         >
-            <h2 className="py-6 md:py-8 lg:py-10 text-4xl md:text-5xl font-bold mb-8 md:mb-9 lg:mb-10 text-gray-600 dark:text-white">
+            <h2 className="py-6 md:py-8 lg:py-10 text-4xl md:text-5xl font-normal mb-8 md:mb-9 lg:mb-10 text-slate-800 dark:text-[#f0f4ff]">
                 {t("projects.title")}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-7 lg:gap-8 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
@@ -73,45 +88,73 @@ export function Projects() {
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="relative group block bg-gradient-to-br from-white via-gray-50 to-white dark:from-zinc-800 dark:via-zinc-900 dark:to-zinc-800 p-6 md:p-7 lg:p-8 rounded-3xl shadow-lg hover:shadow-2xl border border-gray-200/80 dark:border-zinc-700/80 overflow-hidden transform transition-all duration-500 hover:scale-[1.03] hover:-translate-y-2"
+                        className="relative group block bg-gradient-to-br from-white via-slate-50 to-white dark:from-[#141720] dark:via-[#11131b] dark:to-[#141720] p-6 md:p-7 lg:p-8 rounded-3xl shadow-lg hover:shadow-2xl border border-slate-200 dark:border-white/10 overflow-hidden transform transition-all duration-500 hover:scale-[1.03] hover:-translate-y-2"
                     >
                         {/* Gradiente de fundo animado */}
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/0 via-purple-500/0 to-pink-500/0 group-hover:from-indigo-500/10 group-hover:via-purple-500/15 group-hover:to-pink-500/10 transition-all duration-700"></div>
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/0 via-violet-500/0 to-cyan-500/0 group-hover:from-cyan-500/10 group-hover:via-violet-500/10 group-hover:to-cyan-500/10 transition-all duration-700"></div>
                         
                         {/* Brilho sutil no hover */}
                         <div className="absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                            <div className="absolute inset-0 bg-gradient-to-br from-indigo-400/20 via-transparent to-purple-400/20 blur-xl"></div>
+                            <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/20 via-transparent to-violet-400/20 blur-xl"></div>
                         </div>
                         
                         {/* Borda brilhante no hover */}
-                        <div className="absolute inset-0 rounded-3xl border-2 border-transparent group-hover:border-indigo-400/60 dark:group-hover:border-indigo-500/60 transition-all duration-500"></div>
+                        <div className="absolute inset-0 rounded-3xl border-2 border-transparent group-hover:border-cyan-400/40 transition-all duration-500"></div>
 
                         {/* Conteúdo */}
                         <div className="relative z-10">
+                            {/* Imagem de capa */}
+                            {project.image && (
+                                <div className="mb-4 md:mb-5 lg:mb-6 -mx-6 md:-mx-7 lg:-mx-8 -mt-6 md:-mt-7 lg:-mt-8 rounded-t-3xl overflow-hidden h-40 md:h-48 lg:h-56">
+                                    <img
+                                        src={project.image}
+                                        alt={t(`projects.${project.key}.name`)}
+                                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                    />
+                                </div>
+                            )}
+                            
                             {/* Badge para projetos em desenvolvimento */}
                             {project.inDevelopment && (
-                                <span className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-4 text-xs font-bold text-indigo-700 dark:text-indigo-300 bg-gradient-to-r from-indigo-100 to-purple-100 dark:from-indigo-900/60 dark:to-purple-900/60 rounded-full shadow-sm">
+                                <span className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-4 text-xs font-bold text-cyan-700 dark:text-cyan-200 bg-cyan-500/10 border border-cyan-300/30 rounded-full shadow-sm">
                                     <span className="relative flex h-2 w-2">
-                                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
-                                        <span className="relative inline-flex rounded-full h-2 w-2 bg-indigo-500"></span>
+                                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+                                        <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-400"></span>
                                     </span>
                                     {t("projects.inDevelopment")}
                                 </span>
                             )}
+
+                            {project.screenshots && (
+                                <div className="mb-4 md:mb-5 grid grid-cols-2 gap-2">
+                                    {project.screenshots.map((shot) => (
+                                        <div key={shot.src} className="rounded-xl overflow-hidden border border-slate-200 dark:border-white/10">
+                                            <img
+                                                src={shot.src}
+                                                alt={`${t(`projects.${project.key}.name`)} ${shot.label}`}
+                                                className="w-full h-24 md:h-28 object-cover"
+                                            />
+                                            <span className="block py-1 text-[10px] tracking-wider uppercase text-cyan-700 dark:text-cyan-200 bg-slate-100 dark:bg-black/30">
+                                                {shot.label}
+                                            </span>
+                                        </div>
+                                    ))}
+                                </div>
+                            )}
                             
-                            <h3 className="text-xl md:text-xl lg:text-2xl font-bold mb-2 md:mb-2.5 lg:mb-3 text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors duration-300 leading-tight">
+                            <h3 className="text-xl md:text-xl lg:text-2xl font-semibold mb-2 md:mb-2.5 lg:mb-3 text-slate-900 dark:text-[#f0f4ff] group-hover:text-cyan-600 dark:group-hover:text-cyan-300 transition-colors duration-300 leading-tight">
                                 {t(`projects.${project.key}.name`)}
                             </h3>
-                            <p className="text-sm md:text-base leading-relaxed text-gray-600 dark:text-gray-300 mb-4 md:mb-5 lg:mb-6 min-h-[3rem] md:min-h-[3.25rem] lg:min-h-[3.5rem]">
+                            <p className="text-sm md:text-base leading-relaxed text-slate-600 dark:text-gray-300 mb-4 md:mb-5 lg:mb-6 min-h-[3rem] md:min-h-[3.25rem] lg:min-h-[3.5rem]">
                                 {t(`projects.${project.key}.description`)}
                             </p>
 
                             {/* Tecnologias */}
-                            <div className="flex flex-wrap justify-center gap-2 md:gap-2.5 pt-4 md:pt-4.5 lg:pt-5 border-t border-gray-200/80 dark:border-zinc-700/80">
+                            <div className="flex flex-wrap justify-center gap-2 md:gap-2.5 pt-4 md:pt-4.5 lg:pt-5 border-t border-slate-200 dark:border-white/10">
                                 {project.technologies.map((tech, index) => (
                                     <div
                                         key={index}
-                                        className="p-2 md:p-2.5 bg-white/80 dark:bg-zinc-800/80 backdrop-blur-sm rounded-xl shadow-sm group-hover:shadow-md group-hover:bg-white dark:group-hover:bg-zinc-800 transition-all duration-300 hover:scale-110"
+                                        className="p-2 md:p-2.5 bg-slate-50 dark:bg-white/5 backdrop-blur-sm rounded-xl shadow-sm group-hover:shadow-md group-hover:bg-white/40 dark:group-hover:bg-white/10 transition-all duration-300 hover:scale-110 border border-slate-200 dark:border-white/10"
                                     >
                                         <img
                                             src={tech}
@@ -125,9 +168,9 @@ export function Projects() {
 
                         {/* Ícone de seta no hover */}
                         <div className="absolute top-6 right-6 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-2 group-hover:translate-x-0">
-                            <div className="p-2 bg-indigo-100 dark:bg-indigo-900/50 rounded-full">
+                            <div className="p-2 bg-cyan-500/15 rounded-full border border-cyan-300/30">
                                 <svg
-                                    className="w-5 h-5 text-indigo-600 dark:text-indigo-400"
+                                    className="w-5 h-5 text-cyan-700 dark:text-cyan-300"
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"

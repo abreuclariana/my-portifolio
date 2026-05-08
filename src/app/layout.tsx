@@ -2,9 +2,17 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import type { ReactNode } from "react";
 import dynamic from "next/dynamic";
+import { Syne, Instrument_Serif } from "next/font/google";
 import { TranslationProvider } from "../contexts/TranslationContext";
 import { Navbar } from "./components/Navbar";
 import { Header } from "./components/header";
+
+const syne = Syne({ subsets: ["latin"], variable: "--font-body" });
+const instrumentSerif = Instrument_Serif({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-display",
+});
 
 const About = dynamic(() => import("./components/About").then(mod => mod.About), { ssr: true });
 const Services = dynamic(() => import('./components/Services').then(mod => mod.Services), { ssr: true });
@@ -72,7 +80,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="bg-white text-black dark:bg-zinc-900 dark:text-white">
+      <body className={`${syne.variable} ${instrumentSerif.variable} bg-[var(--bg)] text-[var(--text)] antialiased transition-colors`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
           <TranslationProvider>
             <main className="container-center">

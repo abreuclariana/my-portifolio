@@ -80,6 +80,10 @@
     "authSystem": {
       "name": "Authentication System",
       "description": "Secure authentication architecture using Node.js, Express, MongoDB, Mongoose, and Bcrypt for protected registration and login flows."
+    },
+    "beepr": {
+      "name": "Beepr: Native Migration & Geo-Commerce",
+      "description": "Mobile app built with React Native/Expo, PostGIS geolocation, and 50+ production Supabase Edge Functions, showcased with loc-not and captura-de-tela screenshots."
     }
   },
   "contacts": {

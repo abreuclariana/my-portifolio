@@ -7,13 +7,13 @@ export function Contacts() {
   const { t } = useTranslation();
   
   return (
-    <section id="contact" className="py-8 md:py-10 mt-12 md:mt-16 lg:mt-20 text-center mb-8 md:mb-10 px-4 sm:px-6 md:px-8 scroll-smooth">
-      <h2 className="text-4xl md:text-5xl font-bold mb-12 md:mb-16 lg:mb-20 text-gray-600 dark:text-gray-100">{t("contacts.title")}</h2>
+    <section id="contact" className="py-10 md:py-12 mt-12 md:mt-16 lg:mt-20 text-center mb-8 md:mb-10 px-4 sm:px-6 md:px-8 scroll-smooth">
+      <h2 className="text-4xl md:text-5xl font-normal mb-12 md:mb-16 lg:mb-20 text-slate-800 dark:text-[#f0f4ff]">{t("contacts.title")}</h2>
 
       <div className="grid grid-cols-1 lg:grid-cols-1 gap-20 md:gap-32 lg:gap-40 max-w-6xl mx-auto items-center">
         {/* Coluna da esquerda - Ícones de contato */}
-        <div>
-          <p className="text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-200 max-w-lg mx-auto mb-8 md:mb-10 lg:mb-12 px-2">
+        <div className="rounded-3xl border border-slate-200 dark:border-white/10 bg-gradient-to-br from-white via-slate-50 to-white dark:from-[#141720] dark:via-[#11131b] dark:to-[#141720] p-8 md:p-10 shadow-2xl">
+          <p className="text-lg md:text-xl lg:text-2xl text-slate-600 dark:text-gray-300 max-w-2xl mx-auto mb-8 md:mb-10 lg:mb-12 px-2">
             {t("contacts.description")}
           </p>
           <div className="flex justify-center gap-6 md:gap-7 lg:gap-8 mt-4 md:mt-5 lg:mt-6">
@@ -21,7 +21,7 @@ export function Contacts() {
               href="https://github.com/abreuclariana"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-all text-3xl md:text-3xl lg:text-4xl dark:text-gray-400 dark:hover:text-white"
+              className="text-slate-600 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-300 transition-all text-3xl md:text-3xl lg:text-4xl"
             >
               <FaGithub />
             </a>
@@ -29,7 +29,7 @@ export function Contacts() {
               href="https://linkedin.com/in/clariana-abreu-dev/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-all text-3xl md:text-3xl lg:text-4xl dark:text-gray-400 dark:hover:text-white"
+              className="text-slate-600 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-300 transition-all text-3xl md:text-3xl lg:text-4xl"
             >
               <FaLinkedin />
             </a>
@@ -37,23 +37,23 @@ export function Contacts() {
               href="https://www.upwork.com/freelancers/~01d2dbae59f1642147?viewMode=1"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-all text-3xl md:text-3xl lg:text-4xl dark:text-gray-400 dark:hover:text-white"
+              className="text-slate-600 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-300 transition-all text-3xl md:text-3xl lg:text-4xl"
             >
               <FaBriefcase />
             </a>
           </div>
-          <div className="mt-8 space-y-3 text-sm md:text-base text-gray-600 dark:text-gray-300">
+          <div className="mt-8 space-y-3 text-sm md:text-base text-slate-600 dark:text-gray-300">
             <p className="flex items-center justify-center gap-2">
-              <FaMapMarkerAlt className="text-indigo-500" />
+              <FaMapMarkerAlt className="text-cyan-600 dark:text-cyan-300" />
               Sao Paulo, Brazil
             </p>
             <p className="flex items-center justify-center gap-2">
-              <FaPhone className="text-indigo-500" />
+              <FaPhone className="text-cyan-600 dark:text-cyan-300" />
               +55 (71) 99195-0348
             </p>
             <p className="flex items-center justify-center gap-2">
-              <FaEnvelope className="text-indigo-500" />
-              <a href="mailto:abreuclariana@gmail.com" className="hover:text-indigo-500 transition-colors">
+              <FaEnvelope className="text-cyan-600 dark:text-cyan-300" />
+              <a href="mailto:abreuclariana@gmail.com" className="hover:text-cyan-600 dark:hover:text-cyan-300 transition-colors">
                 abreuclariana@gmail.com
               </a>
             </p>
