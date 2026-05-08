@@ -42,7 +42,7 @@ export function Projects() {
         },
         { 
             key: "happyKids",
-            inDevelopment: true,
+           
             link: "https://www.linkedin.com/feed/update/urn:li:activity:7398733254893387776/",  
             screenshots: [
                 { src: "/img/lulu-home.png", label: "lulu-home" },
