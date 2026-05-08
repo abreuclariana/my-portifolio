@@ -12,7 +12,7 @@ export const Header = () => {
         {/* Texto e Botões */}
         <div className="flex flex-col items-center md:items-start w-full md:w-1/2 gap-4 md:gap-6 md:ml-8 lg:ml-24">
           <p className="text-[10px] sm:text-xs tracking-[0.22em] uppercase font-bold text-cyan-600 dark:text-cyan-300">
-            Especialista em SaaS B2B Escaláveis
+            {t("header.tagline")}
           </p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-normal leading-tight tracking-tight text-slate-800 dark:text-[#f0f4ff] drop-shadow-sm text-center md:text-left">
             Clariana Abreu
@@ -23,7 +23,7 @@ export const Header = () => {
           </h2>
 
           <p className="text-sm md:text-base text-slate-500 dark:text-gray-400 text-center md:text-left max-w-xl">
-            📊 50+ clientes | 🚀 30+ SaaS em produção | ⭐ Top-Rated Upwork
+            📊 {t("header.stats")}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mt-4 w-full sm:w-auto">
