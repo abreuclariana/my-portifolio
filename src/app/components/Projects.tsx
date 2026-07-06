@@ -3,7 +3,88 @@
 import { useTranslation } from "../../contexts/TranslationContext";
 
 export function Projects() {
-    const { t } = useTranslation();
+    const { language, t } = useTranslation();
+
+    const details = {
+        en: {
+            title: "Selected Work",
+            intro: "A mix of SaaS architecture, mobile migration, AI systems, and production tooling delivered for international teams.",
+            cards: {
+                saasBooking: {
+                    role: "Full-stack architecture",
+                    result: "Scheduling, secure auth, payments, and AI-assisted workflows in one stack.",
+                    bullets: ["Next.js App Router", "Supabase with RLS", "Stripe and OpenAI integrations"],
+                },
+                beepr: {
+                    role: "Mobile migration and geospatial backend",
+                    result: "Production-ready React Native system with real-time location constraints.",
+                    bullets: ["Expo and native background services", "PostGIS jurisdiction logic", "50+ Supabase Edge Functions"],
+                },
+                happyKids: {
+                    role: "Frontend leadership for an AI education platform",
+                    result: "Trilingual, accessible product experience for a Global Top 30 AI Social Impact project.",
+                    bullets: ["React and TypeScript", "Responsive UX architecture", "OpenAI-powered user flows"],
+                },
+                shoutex: {
+                    role: "SEO tooling and Chrome extension engineering",
+                    result: "Real-time DOM analysis in a modular UI prepared for future AI features.",
+                    bullets: ["Manifest V3", "Fast DOM parsing", "Product-ready interface"],
+                },
+            },
+        },
+        pt: {
+            title: "Projetos Selecionados",
+            intro: "Projetos reais citados no seu LinkedIn, com foco em impacto de produto, migracao de arquitetura e sistemas prontos para producao.",
+            cards: {
+                saasBooking: {
+                    role: "SaaS booking com IA e backend seguro",
+                    result: "Plataforma de agendamento com arquitetura full stack, autenticacao segura, pagamentos e fluxos assistidos por IA.",
+                    bullets: ["Next.js App Router", "Supabase com RLS", "Integracoes com Stripe e OpenAI"],
+                },
+                beepr: {
+                    role: "Marketplace mobile dos EUA com geolocalizacao e compliance",
+                    result: "Migracao tecnica de um prototipo Capacitor para React Native Expo, com geofencing, push e logica jurisdicional em producao.",
+                    bullets: ["Expo e servicos nativos em background", "Logica jurisdicional em PostGIS", "51 Supabase Edge Functions auditadas"],
+                },
+                happyKids: {
+                    role: "Lideranca frontend em plataforma educacional com IA",
+                    result: "Execucao visual e arquitetural de uma plataforma trilingue reconhecida como Global Top 30 AI Social Impact.",
+                    bullets: ["React e TypeScript", "Arquitetura UX responsiva", "Fluxos com OpenAI"],
+                },
+                shoutex: {
+                    role: "Extensao Chrome para SEO com base pronta para IA",
+                    result: "Engine de analise DOM em tempo real para metricas SEO, com arquitetura preparada para integracoes futuras com OpenAI.",
+                    bullets: ["Manifest V3", "DOM parsing veloz", "Interface pronta para produto"],
+                },
+            },
+        },
+        es: {
+            title: "Trabajo Seleccionado",
+            intro: "Una mezcla de arquitectura SaaS, migracion mobile, sistemas con IA y tooling de produccion para equipos internacionales.",
+            cards: {
+                saasBooking: {
+                    role: "Arquitectura full stack",
+                    result: "Agendamiento, autenticacion segura, pagos y flujos con IA en una sola stack.",
+                    bullets: ["Next.js App Router", "Supabase con RLS", "Integraciones con Stripe y OpenAI"],
+                },
+                beepr: {
+                    role: "Migracion mobile y backend geoespacial",
+                    result: "Sistema React Native listo para produccion con restricciones reales de ubicacion.",
+                    bullets: ["Expo y servicios nativos en background", "Logica jurisdiccional en PostGIS", "50+ Supabase Edge Functions"],
+                },
+                happyKids: {
+                    role: "Liderazgo frontend para plataforma educativa con IA",
+                    result: "Experiencia trilingue y accesible para un proyecto Global Top 30 AI Social Impact.",
+                    bullets: ["React y TypeScript", "Arquitectura UX responsiva", "Flujos con OpenAI"],
+                },
+                shoutex: {
+                    role: "Herramienta SEO e ingenieria de extension Chrome",
+                    result: "Analisis DOM en tiempo real con interfaz modular preparada para funciones de IA.",
+                    bullets: ["Manifest V3", "DOM parsing rapido", "Interfaz lista para producto"],
+                },
+            },
+        },
+    }[language];
     
     const projects = [
         {
@@ -78,9 +159,12 @@ export function Projects() {
             id="projects" 
             className="py-12 mt-10 text-center text-slate-800 dark:text-gray-100 scroll-smooth"
         >
-            <h2 className="py-6 md:py-8 lg:py-10 text-4xl md:text-5xl font-normal mb-8 md:mb-9 lg:mb-10 text-slate-800 dark:text-[#f0f4ff]">
-                {t("projects.title")}
+            <h2 className="py-6 md:py-8 lg:py-10 text-4xl md:text-5xl font-normal mb-4 text-slate-800 dark:text-[#f0f4ff]">
+                {details.title}
             </h2>
+            <p className="mx-auto mb-8 max-w-3xl px-4 text-base leading-relaxed text-slate-600 dark:text-slate-300 md:text-lg">
+                {details.intro}
+            </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-7 lg:gap-8 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
                 {projects.map((project) => (
                     <a
@@ -145,9 +229,21 @@ export function Projects() {
                             <h3 className="text-xl md:text-xl lg:text-2xl font-semibold mb-2 md:mb-2.5 lg:mb-3 text-slate-900 dark:text-[#f0f4ff] group-hover:text-cyan-600 dark:group-hover:text-cyan-300 transition-colors duration-300 leading-tight">
                                 {t(`projects.${project.key}.name`)}
                             </h3>
-                            <p className="text-sm md:text-base leading-relaxed text-slate-600 dark:text-gray-300 mb-4 md:mb-5 lg:mb-6 min-h-[3rem] md:min-h-[3.25rem] lg:min-h-[3.5rem]">
-                                {t(`projects.${project.key}.description`)}
+                            <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-700 dark:text-cyan-200">
+                                {details.cards[project.key as keyof typeof details.cards].role}
                             </p>
+                            <p className="text-sm md:text-base leading-relaxed text-slate-600 dark:text-gray-300 mb-4 md:mb-5 lg:mb-6 min-h-[3rem] md:min-h-[3.25rem] lg:min-h-[3.5rem]">
+                                {details.cards[project.key as keyof typeof details.cards].result}
+                            </p>
+
+                            <ul className="mb-5 space-y-2 text-left text-sm text-slate-600 dark:text-slate-300">
+                                {details.cards[project.key as keyof typeof details.cards].bullets.map((bullet) => (
+                                    <li key={bullet} className="flex gap-2">
+                                        <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-cyan-500 dark:bg-cyan-300" />
+                                        <span>{bullet}</span>
+                                    </li>
+                                ))}
+                            </ul>
 
                             {/* Tecnologias */}
                             <div className="flex flex-wrap justify-center gap-2 md:gap-2.5 pt-4 md:pt-4.5 lg:pt-5 border-t border-slate-200 dark:border-white/10">

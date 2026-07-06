@@ -27,9 +27,10 @@
     "skills": "Habilidades",
     "projects": "Proyectos",
     "contacts": "Contactos",
-    "getStarted": "Comenzar",
+    "getStarted": "Contacto",
     "openMenu": "Abrir menú",
-    "goToTop": "Ir al inicio de la página"
+    "goToTop": "Ir al inicio de la página",
+    "brandSubtitle": "Ingenieria SaaS con vision de producto"
   },
   "header": {
     "jobTitle": "Lead Full Stack Developer",

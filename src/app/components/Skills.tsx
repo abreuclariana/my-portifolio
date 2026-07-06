@@ -4,22 +4,35 @@ import { FaJs, FaReact, FaNodeJs, FaMobileAlt } from 'react-icons/fa';
 import { useTranslation } from "../../contexts/TranslationContext";
 
 export function Skills() {
-    const { t } = useTranslation();
+    const { language, t } = useTranslation();
+    const copy = {
+        en: {
+            intro: "Core competencies from current roles across SaaS, AI systems, frontend architecture, and production backend engineering.",
+            highlights: ["React.js", "TypeScript", "Next.js", "Node.js", "RAG", "Supabase"],
+        },
+        pt: {
+            intro: "Competencias centrais das atuacoes atuais em SaaS, sistemas com IA, arquitetura frontend e backend de producao.",
+            highlights: ["React.js", "TypeScript", "Next.js", "Node.js", "RAG", "Supabase"],
+        },
+        es: {
+            intro: "Competencias centrales de los roles actuales en SaaS, sistemas con IA, arquitectura frontend y backend de produccion.",
+            highlights: ["React.js", "TypeScript", "Next.js", "Node.js", "RAG", "Supabase"],
+        },
+    }[language];
+
     const skills = [
-        { name: "JavaScript", icon: <FaJs className="text-yellow-500 text-4xl" /> },
         { name: "TypeScript", icon: <img src="/img/typescript-logo.svg" alt="TypeScript" className="w-12 h-12 mx-auto" /> },
-        { name: "React", icon: <FaReact className="text-cyan-400 text-4xl" /> },
-        { name: "React Native", icon: <FaMobileAlt className="text-cyan-300 text-4xl" /> },
+        { name: "React.js", icon: <FaReact className="text-cyan-400 text-4xl" /> },
         { name: "Next.js", icon: <img src="/img/nextjs-logo.svg" alt="Next.js" className="w-12 h-12 mx-auto" /> },
-        { name: "Tailwind CSS", icon: <img src="/img/tailwindcss-logo.svg" alt="Tailwind CSS" className="w-12 h-12 mx-auto" /> },
         { name: "Node.js", icon: <FaNodeJs className="text-green-500 text-4xl" /> },
+        { name: "React Native", icon: <FaMobileAlt className="text-cyan-300 text-4xl" /> },
+        { name: "Supabase", icon: <img src="/img/supabase-original.svg" alt="Supabase" className="w-12 h-12 mx-auto" /> },
         { name: "PostgreSQL", icon: <img src="/img/postgresql-original.svg" alt="PostgreSQL" className="w-12 h-12 mx-auto" /> },
         { name: "PostGIS", icon: <img src="/img/postgresql-original.svg" alt="PostGIS" className="w-12 h-12 mx-auto" /> },
-        { name: "MongoDB", icon: <img src="/img/mongodb-original.svg" alt="MongoDB" className="w-12 h-12 mx-auto" /> },
-        { name: "Supabase", icon: <img src="/img/supabase-original.svg" alt="Supabase" className="w-12 h-12 mx-auto" /> },
-        { name: "Vercel", icon: <img src="/img/vercel-original.svg" alt="Vercel" className="w-12 h-12 mx-auto" /> },
-        { name: "OpenAI API", icon: <FaJs className="text-yellow-500 text-4xl" /> },
+        { name: "RAG", icon: <FaJs className="text-yellow-500 text-4xl" /> },
+        { name: "OpenAI", icon: <FaJs className="text-yellow-500 text-4xl" /> },
         { name: "Stripe", icon: <FaNodeJs className="text-indigo-500 text-4xl" /> },
+        { name: "Product Management", icon: <FaJs className="text-orange-500 text-4xl" /> },
     ];
 
     return (
@@ -28,6 +41,16 @@ export function Skills() {
             className="py-12 mt-20 mb-10 text-center text-slate-800 dark:text-gray-100 scroll-smooth"
         >
             <h2 className="text-4xl md:text-5xl font-normal mb-12 md:mb-16 lg:mb-20 text-slate-800 dark:text-[#f0f4ff]">{t("skills.title")}</h2>
+            <p className="mx-auto mb-8 max-w-3xl px-4 text-base leading-relaxed text-slate-600 dark:text-slate-300 md:text-lg">
+                {copy.intro}
+            </p>
+            <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto px-4 mb-10">
+                {copy.highlights.map((highlight) => (
+                    <span key={highlight} className="rounded-full border border-slate-200 bg-white/80 px-4 py-2 text-sm font-medium text-slate-700 dark:border-white/10 dark:bg-white/5 dark:text-slate-200">
+                        {highlight}
+                    </span>
+                ))}
+            </div>
             <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-5 lg:gap-6 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
                 {skills.map((skill) => (
                     <li
