@@ -24,13 +24,13 @@ export function Skills() {
         { name: "Maritime Operations", icon: <FaAnchor className="text-cyan-500 text-4xl" /> },
         { name: "IT Infrastructure", icon: <FaNetworkWired className="text-cyan-400 text-4xl" /> },
         { name: "Systems Support", icon: <FaTools className="text-slate-500 text-4xl" /> },
-        { name: "Security Protocols", icon: <FaShieldAlt className="text-emerald-500 text-4xl" /> },
-        { name: "Multicultural Teams", icon: <FaUsers className="text-violet-500 text-4xl" /> },
+        { name: "Security Protocols", icon: <FaShieldAlt className="text-sky-600 text-4xl" /> },
+        { name: "Multicultural Teams", icon: <FaUsers className="text-blue-500 text-4xl" /> },
         { name: "Global Communication", icon: <FaGlobeAmericas className="text-blue-500 text-4xl" /> },
         { name: "TypeScript", icon: <img src="/img/typescript-logo.svg" alt="TypeScript" className="w-12 h-12 mx-auto" /> },
         { name: "React.js", icon: <FaReact className="text-cyan-400 text-4xl" /> },
         { name: "Next.js", icon: <img src="/img/nextjs-logo.svg" alt="Next.js" className="w-12 h-12 mx-auto" /> },
-        { name: "Node.js", icon: <FaNodeJs className="text-green-500 text-4xl" /> },
+        { name: "Node.js", icon: <FaNodeJs className="text-teal-600 text-4xl" /> },
         { name: "React Native", icon: <FaMobileAlt className="text-cyan-300 text-4xl" /> },
         { name: "AI Tools", icon: <FaJs className="text-yellow-500 text-4xl" /> },
     ];
@@ -55,10 +55,10 @@ export function Skills() {
                 {skills.map((skill) => (
                     <li
                         key={skill.name}
-                        className="relative group bg-gradient-to-br from-white via-slate-50 to-white dark:from-[#141720] dark:via-[#11131b] dark:to-[#141720] p-4 md:p-5 lg:p-6 rounded-2xl shadow-lg hover:shadow-2xl border border-slate-200 dark:border-white/10 overflow-hidden transform transition-all duration-500 hover:scale-[1.05] hover:-translate-y-1"
+                        className="relative group bg-gradient-to-br from-white via-slate-50 to-white dark:from-[#0b2436] dark:via-[#071b2a] dark:to-[#0d2f43] p-4 md:p-5 lg:p-6 rounded-2xl shadow-lg hover:shadow-2xl border border-slate-200 dark:border-white/10 overflow-hidden transform transition-all duration-500 hover:scale-[1.05] hover:-translate-y-1"
                     >
                         {/* Gradiente de fundo animado */}
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/0 via-violet-500/0 to-cyan-500/0 group-hover:from-cyan-500/10 group-hover:via-violet-500/10 group-hover:to-cyan-500/10 transition-all duration-500"></div>
+                        <div className="absolute inset-0 bg-gradient-to-br from-sky-500/0 via-blue-500/0 to-cyan-500/0 group-hover:from-sky-500/10 group-hover:via-blue-500/10 group-hover:to-cyan-500/10 transition-all duration-500"></div>
                         
                         {/* Borda brilhante no hover */}
                         <div className="absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-cyan-400/40 transition-all duration-300"></div>
@@ -77,7 +77,7 @@ export function Skills() {
 
                         {/* Efeito de brilho sutil */}
                         <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                            <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/20 via-transparent to-violet-400/20 blur-xl"></div>
+                            <div className="absolute inset-0 bg-gradient-to-br from-sky-300/20 via-transparent to-blue-400/20 blur-xl"></div>
                         </div>
                     </li>
                 ))}
