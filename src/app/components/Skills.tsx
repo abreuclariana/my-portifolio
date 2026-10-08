@@ -1,38 +1,38 @@
 "use client";
 
-import { FaJs, FaReact, FaNodeJs, FaMobileAlt } from 'react-icons/fa';
+import { FaAnchor, FaGlobeAmericas, FaJs, FaMobileAlt, FaNetworkWired, FaNodeJs, FaReact, FaShieldAlt, FaTools, FaUsers } from 'react-icons/fa';
 import { useTranslation } from "../../contexts/TranslationContext";
 
 export function Skills() {
     const { language, t } = useTranslation();
     const copy = {
         en: {
-            intro: "Core competencies from current roles across SaaS, AI systems, frontend architecture, and production backend engineering.",
-            highlights: ["React.js", "TypeScript", "Next.js", "Node.js", "RAG", "Supabase"],
+            intro: "A practical mix of maritime readiness, IT infrastructure, systems support, and international technology experience.",
+            highlights: ["Navy discipline", "IT infrastructure", "Hospitality standards", "Multilingual communication"],
         },
         pt: {
-            intro: "Competencias centrais das atuacoes atuais em SaaS, sistemas com IA, arquitetura frontend e backend de producao.",
-            highlights: ["React.js", "TypeScript", "Next.js", "Node.js", "RAG", "Supabase"],
+            intro: "Uma combinacao pratica de prontidao maritima, infraestrutura de TI, suporte a sistemas e experiencia internacional em tecnologia.",
+            highlights: ["Disciplina naval", "Infraestrutura de TI", "Padroes de hospitalidade", "Comunicacao multilingue"],
         },
         es: {
-            intro: "Competencias centrales de los roles actuales en SaaS, sistemas con IA, arquitectura frontend y backend de produccion.",
-            highlights: ["React.js", "TypeScript", "Next.js", "Node.js", "RAG", "Supabase"],
+            intro: "Una combinacion practica de preparacion maritima, infraestructura de TI, soporte de sistemas y experiencia internacional en tecnologia.",
+            highlights: ["Disciplina naval", "Infraestructura de TI", "Estandares de hospitalidad", "Comunicacion multilingue"],
         },
     }[language];
 
     const skills = [
+        { name: "Maritime Operations", icon: <FaAnchor className="text-cyan-500 text-4xl" /> },
+        { name: "IT Infrastructure", icon: <FaNetworkWired className="text-cyan-400 text-4xl" /> },
+        { name: "Systems Support", icon: <FaTools className="text-slate-500 text-4xl" /> },
+        { name: "Security Protocols", icon: <FaShieldAlt className="text-emerald-500 text-4xl" /> },
+        { name: "Multicultural Teams", icon: <FaUsers className="text-violet-500 text-4xl" /> },
+        { name: "Global Communication", icon: <FaGlobeAmericas className="text-blue-500 text-4xl" /> },
         { name: "TypeScript", icon: <img src="/img/typescript-logo.svg" alt="TypeScript" className="w-12 h-12 mx-auto" /> },
         { name: "React.js", icon: <FaReact className="text-cyan-400 text-4xl" /> },
         { name: "Next.js", icon: <img src="/img/nextjs-logo.svg" alt="Next.js" className="w-12 h-12 mx-auto" /> },
         { name: "Node.js", icon: <FaNodeJs className="text-green-500 text-4xl" /> },
         { name: "React Native", icon: <FaMobileAlt className="text-cyan-300 text-4xl" /> },
-        { name: "Supabase", icon: <img src="/img/supabase-original.svg" alt="Supabase" className="w-12 h-12 mx-auto" /> },
-        { name: "PostgreSQL", icon: <img src="/img/postgresql-original.svg" alt="PostgreSQL" className="w-12 h-12 mx-auto" /> },
-        { name: "PostGIS", icon: <img src="/img/postgresql-original.svg" alt="PostGIS" className="w-12 h-12 mx-auto" /> },
-        { name: "RAG", icon: <FaJs className="text-yellow-500 text-4xl" /> },
-        { name: "OpenAI", icon: <FaJs className="text-yellow-500 text-4xl" /> },
-        { name: "Stripe", icon: <FaNodeJs className="text-indigo-500 text-4xl" /> },
-        { name: "Product Management", icon: <FaJs className="text-orange-500 text-4xl" /> },
+        { name: "AI Tools", icon: <FaJs className="text-yellow-500 text-4xl" /> },
     ];
 
     return (

@@ -9,136 +9,136 @@ export function Services() {
   const copy = {
     en: {
       title: "Experience",
-      intro: "Recent roles across product engineering, SaaS architecture, mobile migration, and mission-critical operations.",
+      intro: "Operational experience across naval IT infrastructure, international technology teams, systems stability, and multicultural communication.",
       roles: [
-        {
-          title: "Lead Product Engineer",
-          company: "The Galindo Consulting Group, Inc.",
-          period: "Jun 2026 - Present",
-          summary:
-            "Promoted to bridge engineering execution and GTM strategy for global SaaS startups, translating business goals into production-ready systems.",
-          bullets: [
-            "Own product roadmaps and product lifecycle decisions for high-stakes software",
-            "Lead full-stack execution while reducing operational complexity and technical risk",
-            "Design secure multi-tenant architectures aligned with long-term maintainability",
-          ],
-          icon: <FaBriefcase className="text-3xl text-cyan-600 dark:text-cyan-300" />,
-        },
-        {
-          title: "Top Rated Plus SaaS Engineer",
-          company: "Upwork",
-          period: "Feb 2025 - Present",
-          summary:
-            "Long-term engineering partner for international startups building SaaS, AI systems, mobile apps, and production tooling.",
-          bullets: [
-            "Migrated a US marketplace from a prototype to React Native with geolocation and push constraints",
-            "Optimized 50+ Supabase Edge Functions and moved geospatial logic into PostGIS",
-            "Built AI-powered flows with OpenAI, RAG pipelines, vector search, and Stripe billing",
-          ],
-          icon: <FaRocket className="text-3xl text-cyan-600 dark:text-cyan-300" />,
-        },
         {
           title: "IT Support Technician, Brazilian Navy",
           company: "Marinha do Brasil",
           period: "Sep 2021 - Sep 2024",
           summary:
-            "Managed mission-critical infrastructure and support operations at Aratu Naval Base, building the discipline that now shapes my engineering work.",
+            "Served at Aratu Naval Base supporting mission-critical IT infrastructure, network environments, access routines, and operational continuity under strict naval protocols.",
           bullets: [
-            "Maintained Windows, Linux, Samba, and network environments with operational continuity",
-            "Applied security policies and access controls in a high-pressure environment",
-            "Built a reliability-first mindset where deadlines, documentation, and ownership are non-negotiable",
+            "Maintained Windows, Linux, Samba, and network environments for military operations",
+            "Supported security policies, access controls, and infrastructure stability",
+            "Built a discipline-first mindset shaped by naval hierarchy, routine, and accountability",
           ],
           icon: <FaAnchor className="text-3xl text-cyan-600 dark:text-cyan-300" />,
+        },
+        {
+          title: "International Technology Specialist",
+          company: "Upwork",
+          period: "Feb 2025 - Present",
+          summary:
+            "Worked with international teams across software, mobile, AI, and production systems, strengthening communication, problem-solving, and delivery standards across cultures.",
+          bullets: [
+            "Collaborated with founders and teams across different countries, time zones, and business contexts",
+            "Handled systems stability, troubleshooting, and operational workflows under real production pressure",
+            "Maintained a Top Rated Plus profile with 100% Job Success through consistency and ownership",
+          ],
+          icon: <FaRocket className="text-3xl text-cyan-600 dark:text-cyan-300" />,
+        },
+        {
+          title: "Lead Product Engineer, International Teams",
+          company: "The Galindo Consulting Group, Inc.",
+          period: "Apr 2026 - Sep 2026",
+          summary:
+            "Led technical execution for global teams, translating business priorities into organized workflows, reliable systems, and clear communication across stakeholders.",
+          bullets: [
+            "Coordinated priorities between technical and non-technical stakeholders",
+            "Reduced operational complexity through documentation, process, and systems organization",
+            "Worked in remote, multicultural environments with high standards for delivery and accountability",
+          ],
+          icon: <FaBriefcase className="text-3xl text-cyan-600 dark:text-cyan-300" />,
         },
       ],
     },
     pt: {
       title: "Experiencia",
-      intro: "Atuacoes recentes em engenharia de produto, arquitetura SaaS, migracao mobile e operacoes mission-critical.",
+      intro: "Experiencia operacional em infraestrutura de TI naval, times internacionais de tecnologia, estabilidade de sistemas e comunicacao multicultural.",
       roles: [
-        {
-          title: "Lead Product Engineer",
-          company: "The Galindo Consulting Group, Inc.",
-          period: "Jun 2026 - Atual",
-          summary:
-            "Promovida para conectar execucao de engenharia e estrategia GTM em startups SaaS globais, traduzindo metas de negocio em sistemas prontos para producao.",
-          bullets: [
-            "Conduzo roadmaps e decisoes de ciclo de vida de produto em softwares de alta criticidade",
-            "Lidero execucao full stack reduzindo complexidade operacional e risco tecnico",
-            "Desenho arquiteturas multi-tenant seguras e sustentaveis no longo prazo",
-          ],
-          icon: <FaBriefcase className="text-3xl text-cyan-600 dark:text-cyan-300" />,
-        },
-        {
-          title: "Top Rated Plus SaaS Engineer",
-          company: "Upwork",
-          period: "Fev 2025 - Atual",
-          summary:
-            "Parceira tecnica de longo prazo para startups internacionais construindo SaaS, sistemas com IA, apps mobile e tooling de producao.",
-          bullets: [
-            "Migrei um marketplace dos EUA de prototipo para React Native com restricoes reais de geolocalizacao e push",
-            "Otimizei 50+ Supabase Edge Functions e movi logica geoespacial para PostGIS",
-            "Implementei fluxos com OpenAI, pipelines RAG, busca vetorial e cobranca com Stripe",
-          ],
-          icon: <FaRocket className="text-3xl text-cyan-600 dark:text-cyan-300" />,
-        },
         {
           title: "Tecnica de Suporte em TI, Marinha do Brasil",
           company: "Marinha do Brasil",
           period: "Set 2021 - Set 2024",
           summary:
-            "Atuei na infraestrutura e no suporte de sistemas mission-critical na Base Naval de Aratu, construindo a disciplina que hoje guia meu trabalho em engenharia.",
+            "Servi na Base Naval de Aratu apoiando infraestrutura de TI mission-critical, ambientes de rede, rotinas de acesso e continuidade operacional sob protocolos navais rigorosos.",
           bullets: [
-            "Mantive ambientes Windows, Linux, Samba e redes com continuidade operacional",
-            "Apliquei politicas de seguranca e controle de acesso em ambiente de alta pressao",
-            "Consolidei uma mentalidade de confiabilidade onde prazo, documentacao e ownership nao sao negociaveis",
+            "Mantive ambientes Windows, Linux, Samba e redes para operacoes militares",
+            "Apoiei politicas de seguranca, controle de acesso e estabilidade de infraestrutura",
+            "Construí uma mentalidade disciplinada pela hierarquia naval, rotina e responsabilidade",
           ],
           icon: <FaAnchor className="text-3xl text-cyan-600 dark:text-cyan-300" />,
+        },
+        {
+          title: "International Technology Specialist",
+          company: "Upwork",
+          period: "Fev 2025 - Atual",
+          summary:
+            "Trabalhei com times internacionais em software, mobile, IA e sistemas em producao, fortalecendo comunicacao, resolucao de problemas e padroes de entrega entre culturas.",
+          bullets: [
+            "Colaborei com founders e times de diferentes paises, fusos horarios e contextos de negocio",
+            "Atuei em estabilidade de sistemas, troubleshooting e fluxos operacionais sob pressao real",
+            "Mantive perfil Top Rated Plus com 100% Job Success por consistencia e ownership",
+          ],
+          icon: <FaRocket className="text-3xl text-cyan-600 dark:text-cyan-300" />,
+        },
+        {
+          title: "Lead Product Engineer, Times Internacionais",
+          company: "The Galindo Consulting Group, Inc.",
+          period: "Abr 2026 - Set 2026",
+          summary:
+            "Liderei execucao tecnica para times globais, traduzindo prioridades de negocio em fluxos organizados, sistemas confiaveis e comunicacao clara entre stakeholders.",
+          bullets: [
+            "Coordenei prioridades entre stakeholders tecnicos e nao tecnicos",
+            "Reduzi complexidade operacional por meio de documentacao, processo e organizacao de sistemas",
+            "Atuei em ambientes remotos e multiculturais com alto padrao de entrega e responsabilidade",
+          ],
+          icon: <FaBriefcase className="text-3xl text-cyan-600 dark:text-cyan-300" />,
         },
       ],
     },
     es: {
       title: "Experiencia",
-      intro: "Experiencia reciente en ingenieria de producto, arquitectura SaaS, migracion mobile y operaciones mission-critical.",
+      intro: "Experiencia operativa en infraestructura de TI naval, equipos internacionales de tecnologia, estabilidad de sistemas y comunicacion multicultural.",
       roles: [
-        {
-          title: "Lead Product Engineer",
-          company: "The Galindo Consulting Group, Inc.",
-          period: "Jun 2026 - Actualidad",
-          summary:
-            "Promovida para conectar ejecucion de ingenieria y estrategia GTM en startups SaaS globales, traduciendo objetivos de negocio en sistemas listos para produccion.",
-          bullets: [
-            "Defino roadmaps y decisiones de ciclo de vida de producto en software de alta criticidad",
-            "Lidero ejecucion full stack reduciendo complejidad operativa y riesgo tecnico",
-            "Diseno arquitecturas multi-tenant seguras y mantenibles",
-          ],
-          icon: <FaBriefcase className="text-3xl text-cyan-600 dark:text-cyan-300" />,
-        },
-        {
-          title: "Top Rated Plus SaaS Engineer",
-          company: "Upwork",
-          period: "Feb 2025 - Actualidad",
-          summary:
-            "Partner tecnico de largo plazo para startups internacionales construyendo SaaS, sistemas con IA, apps mobile y tooling de produccion.",
-          bullets: [
-            "Migre un marketplace de EE.UU. de prototipo a React Native con restricciones reales de geolocalizacion y push",
-            "Optimice 50+ Supabase Edge Functions y movi logica geoespacial a PostGIS",
-            "Implemente flujos con OpenAI, pipelines RAG, busqueda vectorial y Stripe",
-          ],
-          icon: <FaRocket className="text-3xl text-cyan-600 dark:text-cyan-300" />,
-        },
         {
           title: "IT Support Technician, Marina de Brasil",
           company: "Marinha do Brasil",
           period: "Sep 2021 - Sep 2024",
           summary:
-            "Gestione infraestructura y soporte mission-critical en la Base Naval de Aratu, formando la disciplina que hoy define mi trabajo de ingenieria.",
+            "Servi en la Base Naval de Aratu apoyando infraestructura de TI mission-critical, entornos de red, rutinas de acceso y continuidad operativa bajo protocolos navales estrictos.",
           bullets: [
-            "Manteniendo entornos Windows, Linux, Samba y redes con continuidad operativa",
-            "Aplicando politicas de seguridad y control de acceso bajo presion",
-            "Consolidando una mentalidad donde plazo, documentacion y ownership no son negociables",
+            "Mantuve entornos Windows, Linux, Samba y redes para operaciones militares",
+            "Apoye politicas de seguridad, control de acceso y estabilidad de infraestructura",
+            "Construí una mentalidad disciplinada por jerarquia naval, rutina y responsabilidad",
           ],
           icon: <FaAnchor className="text-3xl text-cyan-600 dark:text-cyan-300" />,
+        },
+        {
+          title: "International Technology Specialist",
+          company: "Upwork",
+          period: "Feb 2025 - Actualidad",
+          summary:
+            "Trabaje con equipos internacionales en software, mobile, IA y sistemas en produccion, fortaleciendo comunicacion, resolucion de problemas y estandares de entrega entre culturas.",
+          bullets: [
+            "Colabore con founders y equipos de diferentes paises, zonas horarias y contextos de negocio",
+            "Actue en estabilidad de sistemas, troubleshooting y flujos operativos bajo presion real",
+            "Mantuve perfil Top Rated Plus con 100% Job Success por consistencia y ownership",
+          ],
+          icon: <FaRocket className="text-3xl text-cyan-600 dark:text-cyan-300" />,
+        },
+        {
+          title: "Lead Product Engineer, Equipos Internacionales",
+          company: "The Galindo Consulting Group, Inc.",
+          period: "Abr 2026 - Sep 2026",
+          summary:
+            "Lidere ejecucion tecnica para equipos globales, traduciendo prioridades de negocio en flujos organizados, sistemas confiables y comunicacion clara entre stakeholders.",
+          bullets: [
+            "Coordine prioridades entre stakeholders tecnicos y no tecnicos",
+            "Reduje complejidad operativa mediante documentacion, procesos y organizacion de sistemas",
+            "Trabaje en entornos remotos y multiculturales con alto estandar de entrega y responsabilidad",
+          ],
+          icon: <FaBriefcase className="text-3xl text-cyan-600 dark:text-cyan-300" />,
         },
       ],
     },

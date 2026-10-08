@@ -8,7 +8,7 @@ export function Projects() {
     const details = {
         en: {
             title: "Selected Work",
-            intro: "A mix of SaaS architecture, mobile migration, AI systems, and production tooling delivered for international teams.",
+            intro: "Production work across SaaS architecture, mobile migration, AI systems, and tooling delivered for international teams.",
             cards: {
                 saasBooking: {
                     role: "Full-stack architecture",
@@ -34,7 +34,7 @@ export function Projects() {
         },
         pt: {
             title: "Projetos Selecionados",
-            intro: "Projetos reais citados no seu LinkedIn, com foco em impacto de produto, migracao de arquitetura e sistemas prontos para producao.",
+            intro: "Projetos reais com foco em impacto de produto, migracao de arquitetura, sistemas com IA e software pronto para producao.",
             cards: {
                 saasBooking: {
                     role: "SaaS booking com IA e backend seguro",

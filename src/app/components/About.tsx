@@ -10,116 +10,107 @@ export function About() {
     en: {
       title: "About",
       intro:
-        "If you are building a SaaS product that is breaking under real users, struggling with scalability, or becoming too complex to evolve safely, I help fix that.",
+        "Adaptable, disciplined, and process-driven professional with a background in Navy operations, IT infrastructure, and international team collaboration.",
       paragraph:
-        "I work as a Product Engineer focused on designing and stabilizing SaaS systems that need to operate reliably in production, not just work in demos. Architecture, security, and performance are part of the same foundation.",
+        "My foundation was built during three years in the Brazilian Navy as an IT and Network Support Technician at the Aratu Naval Base, where I supported mission-critical infrastructure under strict operational protocols. Later, working with global teams in technology, I strengthened my ability to communicate across cultures, adapt quickly, and keep high standards under pressure.",
       pillars: [
         {
-          title: "What I design",
+          title: "Operational discipline",
           items: [
-            "Multi-tenant SaaS backend architecture",
-            "Secure PostgreSQL data models with Row Level Security",
-            "Production APIs, webhooks, and event-driven workflows",
-            "AI-powered systems with RAG, OpenAI, and pgvector",
+            "Naval hierarchy and routine adherence",
+            "Safety-minded execution under protocols",
+            "Accountability in high-pressure environments",
           ],
         },
         {
-          title: "What I improve",
+          title: "IT and infrastructure",
           items: [
-            "Reduce system complexity without losing flexibility",
-            "Stabilize fragile workflows under real traffic",
-            "Improve maintainability across growing codebases",
-            "Align technical decisions with product outcomes",
+            "Network troubleshooting and systems support",
+            "Infrastructure stability and access control",
+            "Technology integration for operational teams",
           ],
         },
         {
-          title: "Operating mindset",
+          title: "Maritime readiness",
           items: [
-            "Reliability under pressure",
-            "Predictable and controllable failures",
-            "Discipline over unnecessary complexity",
-            "Ownership that does not stop at deployment",
+            "Multicultural communication",
+            "Hospitality and service standards",
+            "Problem-solving focused on continuity",
           ],
         },
       ],
       quote:
-        "I treat software as operational infrastructure, not just code.",
+        "Ready for international maritime environments, bringing military accountability, technical awareness, and operational excellence onboard.",
     },
     pt: {
       title: "Sobre",
       intro:
-        "Se voce esta construindo um produto SaaS que quebra com usuarios reais, sofre com escalabilidade ou esta ficando complexo demais para evoluir com seguranca, eu ajudo a resolver isso.",
+        "Profissional adaptavel, disciplinada e orientada a processos, com base em operacoes navais, infraestrutura de TI e colaboracao com times internacionais.",
       paragraph:
-        "Atuo como Product Engineer focada em desenhar e estabilizar sistemas SaaS que precisam operar com confiabilidade em producao, e nao apenas funcionar em demos. Arquitetura, seguranca e performance fazem parte da mesma base.",
+        "Minha base foi construida durante tres anos na Marinha do Brasil como Tecnica de Suporte em TI e Redes na Base Naval de Aratu, apoiando infraestrutura mission-critical sob protocolos operacionais rigorosos. Depois, trabalhando com times globais em tecnologia, fortalecei minha capacidade de comunicacao multicultural, adaptacao rapida e entrega sob pressao.",
       pillars: [
         {
-          title: "O que eu desenho",
+          title: "Disciplina operacional",
           items: [
-            "Arquitetura backend SaaS multi-tenant",
-            "Modelos de dados seguros com PostgreSQL e Row Level Security",
-            "APIs de producao, webhooks e fluxos orientados a eventos",
-            "Sistemas com IA usando RAG, OpenAI e pgvector",
+            "Hierarquia naval e aderencia a rotina",
+            "Execucao com mentalidade de seguranca",
+            "Responsabilidade em ambientes de pressao",
           ],
         },
         {
-          title: "O que eu melhoro",
+          title: "TI e infraestrutura",
           items: [
-            "Reduzo complexidade sem perder flexibilidade",
-            "Estabilizo fluxos criticos sob trafego real",
-            "Melhoro manutencao em codebases em crescimento",
-            "Alinho decisoes tecnicas com resultado de produto",
+            "Troubleshooting de redes e suporte a sistemas",
+            "Estabilidade de infraestrutura e controle de acesso",
+            "Integracao de tecnologia para times operacionais",
           ],
         },
         {
-          title: "Mentalidade de operacao",
+          title: "Prontidao maritima",
           items: [
-            "Confiabilidade sob pressao",
-            "Falhas previsiveis e controlaveis",
-            "Disciplina acima de complexidade desnecessaria",
-            "Ownership que nao termina no deploy",
+            "Comunicacao multicultural",
+            "Padroes de hospitalidade e servico",
+            "Resolucao de problemas com foco em continuidade",
           ],
         },
       ],
       quote:
-        "Eu trato software como infraestrutura operacional, nao apenas como codigo.",
+        "Pronta para ambientes maritimos internacionais, levando responsabilidade militar, consciencia tecnica e excelencia operacional a bordo.",
     },
     es: {
       title: "Sobre mi",
       intro:
-        "Si estas construyendo un producto SaaS que falla con usuarios reales, tiene problemas de escalabilidad o se vuelve demasiado complejo para evolucionar con seguridad, yo ayudo a resolverlo.",
+        "Profesional adaptable, disciplinada y orientada a procesos, con base en operaciones navales, infraestructura de TI y colaboracion con equipos internacionales.",
       paragraph:
-        "Trabajo como Product Engineer enfocada en disenar y estabilizar sistemas SaaS que deben operar con fiabilidad en produccion, no solo en demos. Arquitectura, seguridad y rendimiento forman la misma base.",
+        "Mi base fue construida durante tres anos en la Marina de Brasil como Tecnica de Soporte en TI y Redes en la Base Naval de Aratu, apoyando infraestructura mission-critical bajo protocolos operativos estrictos. Despues, trabajando con equipos globales en tecnologia, fortaleci mi comunicacion multicultural, adaptacion rapida y entrega bajo presion.",
       pillars: [
         {
-          title: "Lo que diseno",
+          title: "Disciplina operativa",
           items: [
-            "Arquitectura backend SaaS multi-tenant",
-            "Modelos de datos seguros con PostgreSQL y Row Level Security",
-            "APIs de produccion, webhooks y flujos orientados a eventos",
-            "Sistemas con IA usando RAG, OpenAI y pgvector",
+            "Jerarquia naval y adherencia a rutinas",
+            "Ejecucion con mentalidad de seguridad",
+            "Responsabilidad en entornos bajo presion",
           ],
         },
         {
-          title: "Lo que mejoro",
+          title: "TI e infraestructura",
           items: [
-            "Reduzco complejidad sin perder flexibilidad",
-            "Estabilizo flujos criticos bajo trafico real",
-            "Mejoro mantenibilidad en codebases en crecimiento",
-            "Alineo decisiones tecnicas con resultados de producto",
+            "Troubleshooting de redes y soporte de sistemas",
+            "Estabilidad de infraestructura y control de acceso",
+            "Integracion tecnologica para equipos operativos",
           ],
         },
         {
-          title: "Mentalidad operativa",
+          title: "Preparacion maritima",
           items: [
-            "Confiabilidad bajo presion",
-            "Fallos previsibles y controlables",
-            "Disciplina sobre complejidad innecesaria",
-            "Ownership que no termina en el deploy",
+            "Comunicacion multicultural",
+            "Estandares de hospitalidad y servicio",
+            "Resolucion de problemas con foco en continuidad",
           ],
         },
       ],
       quote:
-        "Trato el software como infraestructura operativa, no solo como codigo.",
+        "Lista para entornos maritimos internacionales, llevando responsabilidad militar, conciencia tecnica y excelencia operativa a bordo.",
     },
   }[language];
   
@@ -143,7 +134,7 @@ export function About() {
           </div>
         </div>
 
-        <div className="w-full max-w-4xl lg:max-w-5xl text-justify flex flex-col justify-center px-2 sm:px-4 md:px-6">
+        <div className="w-full max-w-4xl lg:max-w-5xl text-left flex flex-col justify-center px-2 sm:px-4 md:px-6">
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed tracking-wide text-slate-700 dark:text-gray-300 mb-4 md:mb-6">
             {content.intro}
           </p>
@@ -155,6 +146,27 @@ export function About() {
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed tracking-wide text-slate-700 dark:text-gray-300">
             {content.quote}
           </p>
+        </div>
+
+        <div className="grid w-full max-w-6xl grid-cols-1 gap-4 md:grid-cols-3">
+          {content.pillars.map((pillar) => (
+            <div
+              key={pillar.title}
+              className="rounded-lg border border-slate-200 bg-white/80 p-5 text-left shadow-sm dark:border-white/10 dark:bg-white/5"
+            >
+              <h3 className="mb-4 text-lg font-semibold text-slate-900 dark:text-slate-50">
+                {pillar.title}
+              </h3>
+              <ul className="space-y-3 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
+                {pillar.items.map((item) => (
+                  <li key={item} className="flex gap-3">
+                    <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-600 dark:bg-cyan-300" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </div>
     </section>

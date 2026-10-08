@@ -1,24 +1,25 @@
 {
   "metadata": {
-    "title": "Clariana Silva de Abreu | Full Stack Developer",
-    "description": "Portafolio profesional de Clariana Silva de Abreu, Full Stack Developer enfocada en arquitectura escalable, React/Next.js y Node.js.",
+    "title": "Clariana Abreu | Maritime Operations & Tech Specialist",
+    "description": "Portafolio profesional de Clariana Abreu, enfocado en operaciones maritimas, infraestructura de TI, disciplina de la Marina de Brasil, estandares de hospitalidad y colaboracion internacional.",
     "keywords": [
       "Clariana Abreu",
-      "Full Stack Developer",
-      "React",
-      "Next.js",
-      "Portafolio",
-      "JavaScript",
-      "TypeScript"
+      "Operaciones Maritimas",
+      "Infraestructura de TI",
+      "Veterana de la Marina de Brasil",
+      "Hospitalidad",
+      "Cruise Operations",
+      "Soporte de Redes",
+      "Portfolio"
     ],
     "openGraph": {
-      "title": "Clariana Abreu | Full Stack Developer",
-      "description": "Explora los proyectos y habilidades de Clariana Abreu en desarrollo web moderno.",
+      "title": "Clariana Abreu | Maritime Operations & Tech Specialist",
+      "description": "Explora la experiencia de Clariana Abreu en operaciones navales, infraestructura de TI, comunicacion multicultural y entornos internacionales.",
       "alt": "Banner de Clariana Abreu"
     },
     "twitter": {
-      "title": "Clariana Silva de Abreu | Full Stack Developer",
-      "description": "Portafolio con experiencia full stack, microservicios y productos web modernos."
+      "title": "Clariana Abreu | Maritime Operations & Tech Specialist",
+      "description": "Portfolio con experiencia en operaciones navales, infraestructura de TI, estandares de hospitalidad y colaboracion internacional."
     }
   },
   "navbar": {
@@ -30,31 +31,31 @@
     "getStarted": "Contacto",
     "openMenu": "Abrir menú",
     "goToTop": "Ir al inicio de la página",
-    "brandSubtitle": "Ingenieria SaaS con vision de producto"
+    "brandSubtitle": "Operaciones maritimas e infraestructura de TI"
   },
   "header": {
-    "jobTitle": "Lead Full Stack Developer",
-    "tagline": "Especialista en Soluciones SaaS B2B Escalables | Top-Rated Upwork",
-    "stats": "50+ clientes | 30+ SaaS en producción | 6 años de experiencia",
+    "jobTitle": "Maritime Operations & Tech Specialist",
+    "tagline": "Infraestructura de TI, hospitalidad y disciplina de la Marina de Brasil",
+    "stats": "Veterana de la Marina de Brasil | Infraestructura de TI | Operaciones multiculturales",
     "getInTouch": "¡Ponte en contacto!",
     "viewOnGitHub": "Ver en GitHub",
     "profileAlt": "Foto de Clariana Abreu"
   },
   "about": {
     "title": "Sobre Mí",
-    "paragraph1": "Soy Lead Full Stack Developer con 6 años de experiencia en arquitecturas de alto rendimiento. Actualmente lidero iniciativas técnicas en The Galindo Consulting Group, coordinando equipos distribuidos y entregas end-to-end para clientes corporativos y gubernamentales internacionales.",
-    "paragraph2": "Mi enfoque principal está en el ecosistema React/Next.js y en microservicios escalables con Node.js, Python y Supabase. Como especialista Top-Rated en SaaS y marketplaces B2B, aplico también la disciplina desarrollada en la Marina de Brasil para entregar sistemas seguros, predecibles y listos para producción.",
+    "paragraph1": "Profesional adaptable, disciplinada y orientada a procesos, con base en operaciones navales, infraestructura de TI y colaboracion con equipos internacionales.",
+    "paragraph2": "Mi base fue construida durante tres anos en la Marina de Brasil como Tecnica de Soporte en TI y Redes en la Base Naval de Aratu, luego ampliada con trabajo internacional de tecnologia junto a equipos globales.",
     "photoAlt": "Foto de Clariana Abreu"
   },
   "services": {
     "title": "Experiencia Profesional",
     "technicalSupport": {
-      "title": "Lead Developer - The Galindo Consulting Group",
-      "description": "Liderazgo técnico de un equipo especializado para entregar soluciones full stack de alto impacto para sectores corporativos y gubernamentales. Responsable de code reviews, decisiones de arquitectura, gestión de incidentes y alineación técnico-comercial en negociaciones internacionales."
+      "title": "Lead Product Engineer - The Galindo Consulting Group",
+      "description": "Experiencia anterior en liderazgo con equipos internacionales de tecnologia, enfocada en comunicacion, organizacion de sistemas y ejecucion confiable en entornos multiculturales."
     },
     "websiteCreation": {
-      "title": "Full Stack Developer - SaaS MVP Specialist (Upwork)",
-      "description": "Especialista Top-Rated creando MVPs para startups internacionales con React, Next.js, Node.js y Supabase. Desarrollo de extensiones Chrome con TypeScript y Shadow DOM, ademas de optimizaciones de UI/UX, SEO e integraciones con OpenAI API para productos AI-first y DeepTech."
+      "title": "International Technology Specialist - Upwork",
+      "description": "Profesional Top Rated Plus trabajando con equipos internacionales, sistemas en produccion, troubleshooting, documentacion y comunicacion tecnica entre culturas."
     },
     "exclusiveCustomizations": {
       "title": "Tecnica de Redes - Marina de Brasil",

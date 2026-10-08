@@ -18,6 +18,7 @@ const About = dynamic(() => import("./components/About").then(mod => mod.About),
 const Services = dynamic(() => import('./components/Services').then(mod => mod.Services), { ssr: true });
 const Skills = dynamic(() => import("./components/Skills").then(mod => mod.Skills), { ssr: true });
 const Projects = dynamic(() => import("./components/Projects").then(mod => mod.Projects), { ssr: true });
+const Recognition = dynamic(() => import("./components/Recognition").then(mod => mod.Recognition), { ssr: true });
 const Contacts = dynamic(() => import("./components/Contacts").then(mod => mod.Contacts), { ssr: true });
 const Footer = dynamic(() => import("./components/Footer").then(mod => mod.Footer), { ssr: true });
 
@@ -31,17 +32,18 @@ export const viewport = {
 
 export const metadata = {
   metadataBase: new URL('https://clariana.vercel.app'),
-  title: "Clariana Silva de Abreu | Full Stack Developer",
+  title: "Clariana Abreu | Maritime Operations & Tech Specialist",
   description:
-    "Portfólio profissional de Clariana Silva de Abreu, Full Stack Developer com foco em React, Next.js, Node.js e arquitetura escalável.",
+    "Portfólio de Clariana Abreu, profissional com base em operacoes navais, infraestrutura de TI, colaboracao internacional e padroes de hospitalidade.",
   keywords: [
     "Clariana Abreu",
-    "Full Stack Developer",
-    "React",
-    "Next.js",
+    "Maritime Operations",
+    "IT Infrastructure",
+    "Brazilian Navy Veteran",
+    "Hospitality",
+    "Cruise Operations",
+    "Network Support",
     "Portfólio",
-    "JavaScript",
-    "TypeScript",
   ],
   authors: [{ name: "Clariana Abreu", url: "https://github.com/abreuclariana" }],
   creator: "Clariana Abreu",
@@ -50,8 +52,8 @@ export const metadata = {
     icon: "/favicon.ico",
   },
   openGraph: {
-    title: "Clariana Silva de Abreu | Full Stack Developer",
-    description: "Explore projetos, experiencia e habilidades full stack em produtos escalaveis e de alta performance.",
+    title: "Clariana Abreu | Maritime Operations & Tech Specialist",
+    description: "Experiencia em operacoes navais, infraestrutura de TI, comunicacao multicultural e ambientes internacionais.",
     url: "https://clarianaabreu.vercel.app/", // substitua com seu domínio real
     siteName: "Clariana Abreu",
     images: [
@@ -66,8 +68,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Clariana Silva de Abreu | Full Stack Developer",
-    description: "Portfólio com experiencia full stack, microservicos e produtos web modernos.",
+    title: "Clariana Abreu | Maritime Operations & Tech Specialist",
+    description: "Portfolio com experiencia em operacoes navais, infraestrutura de TI e colaboracao internacional.",
     creator: "@clariana.abreu", // opcional, substitua pelo seu user real do Twitter se tiver
     images: ["/preview.png"],
   },
@@ -90,6 +92,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <Services />
               <Skills />
               <Projects />
+              <Recognition />
               <Contacts />
               <Footer />
             </main>

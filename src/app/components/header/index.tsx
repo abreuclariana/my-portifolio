@@ -8,55 +8,55 @@ export const Header = () => {
 
   const content = {
     en: {
-      eyebrow: "Lead Full-Stack Engineer for SaaS Startups",
+      eyebrow: "Maritime Operations & Tech Specialist | Brazilian Navy Veteran",
       title: "Clariana Abreu",
       subtitle:
-        "Product-minded engineering across TypeScript, Next.js, AI, secure backend systems, and scalable SaaS architecture.",
+        "Operationally disciplined professional with a Navy IT background, international team experience, and a strong foundation in systems infrastructure.",
       stats: [
-        { value: "50+", label: "Supabase Edge Functions maintained in production" },
-        { value: "220+", label: "Hours delivered in a mobile migration engagement" },
+        { value: "3 years", label: "Brazilian Navy IT and network operations" },
+        { value: "4", label: "Languages across multicultural environments" },
+        { value: "Global", label: "Remote collaboration with international teams" },
       ],
-      primaryCta: "Visit Upwork",
-      secondaryCta: "View LinkedIn",
-      githubCta: "View on GitHub",
+      primaryCta: "View LinkedIn",
+      secondaryCta: "Email",
       focusLabel: "Focus",
-      focusValue: "TypeScript, Next.js, React Native, Supabase, OpenAI",
-      approachLabel: "Approach",
-      approachValue: "Reliable systems under real users, not demo-only software.",
+      focusValue: "Maritime operations, hospitality standards, IT infrastructure, systems support",
+      approachLabel: "Operating standard",
+      approachValue: "Discipline, adaptability, multicultural communication, and reliable execution.",
     },
     pt: {
-      eyebrow: "Lead Full-Stack Engineer para startups SaaS",
+      eyebrow: "Maritime Operations & Tech Specialist | Veterana da Marinha do Brasil",
       title: "Clariana Abreu",
       subtitle:
-        "Engenharia com visao de produto em TypeScript, Next.js, IA, backend seguro e arquitetura SaaS escalavel.",
+        "Profissional disciplinada, com base em TI na Marinha, experiencia com times internacionais e forte fundamento em infraestrutura de sistemas.",
       stats: [
-        { value: "50+", label: "Supabase Edge Functions mantidas em producao" },
-        { value: "220+", label: "Horas entregues em um projeto de migracao mobile" },
+        { value: "3 anos", label: "Operacoes de TI e redes na Marinha do Brasil" },
+        { value: "4", label: "Idiomas em ambientes multiculturais" },
+        { value: "Global", label: "Colaboracao remota com times internacionais" },
       ],
-      primaryCta: "Ver Upwork",
-      secondaryCta: "Ver LinkedIn",
-      githubCta: "Ver GitHub",
+      primaryCta: "Ver LinkedIn",
+      secondaryCta: "Email",
       focusLabel: "Foco",
-      focusValue: "TypeScript, Next.js, React Native, Supabase, OpenAI",
-      approachLabel: "Abordagem",
-      approachValue: "Sistemas confiaveis sob uso real, nao software apenas de demonstracao.",
+      focusValue: "Operacoes maritimas, padroes de hospitalidade, infraestrutura de TI, suporte a sistemas",
+      approachLabel: "Padrao de operacao",
+      approachValue: "Disciplina, adaptabilidade, comunicacao multicultural e execucao confiavel.",
     },
     es: {
-      eyebrow: "Lead Full-Stack Engineer para startups SaaS",
+      eyebrow: "Maritime Operations & Tech Specialist | Veterana de la Marina de Brasil",
       title: "Clariana Abreu",
       subtitle:
-        "Ingenieria con enfoque de producto en TypeScript, Next.js, IA, backend seguro y arquitectura SaaS escalable.",
+        "Profesional disciplinada, con base en TI naval, experiencia con equipos internacionales y fuerte fundamento en infraestructura de sistemas.",
       stats: [
-        { value: "50+", label: "Supabase Edge Functions mantenidas en produccion" },
-        { value: "220+", label: "Horas entregadas en una migracion mobile" },
+        { value: "3 años", label: "Operaciones de TI y redes en la Marina de Brasil" },
+        { value: "4", label: "Idiomas en entornos multiculturales" },
+        { value: "Global", label: "Colaboracion remota con equipos internacionales" },
       ],
-      primaryCta: "Ver Upwork",
-      secondaryCta: "Ver LinkedIn",
-      githubCta: "Ver GitHub",
+      primaryCta: "Ver LinkedIn",
+      secondaryCta: "Email",
       focusLabel: "Foco",
-      focusValue: "TypeScript, Next.js, React Native, Supabase, OpenAI",
-      approachLabel: "Enfoque",
-      approachValue: "Sistemas confiables bajo usuarios reales, no software solo de demo.",
+      focusValue: "Operaciones maritimas, estandares de hospitalidad, infraestructura de TI, soporte de sistemas",
+      approachLabel: "Estandar operativo",
+      approachValue: "Disciplina, adaptabilidad, comunicacion multicultural y ejecucion confiable.",
     },
   }[language];
   return (
@@ -79,17 +79,32 @@ export const Header = () => {
             {content.stats.map((stat) => (
               <div
                 key={stat.label}
-                className="rounded-2xl border border-slate-200 bg-white/80 p-4 text-center shadow-sm dark:border-white/10 dark:bg-white/5 md:text-left"
+                className="rounded-lg border border-slate-200 bg-white/80 p-4 text-center shadow-sm dark:border-white/10 dark:bg-white/5 md:text-left"
               >
-                <p className="text-2xl font-semibold text-slate-900 dark:text-slate-50">{stat.value}</p>
+                <p className="text-xl font-semibold text-slate-900 dark:text-slate-50 md:text-2xl">{stat.value}</p>
                 <p className="mt-1 text-xs md:text-sm leading-relaxed text-slate-600 dark:text-slate-300">{stat.label}</p>
               </div>
             ))}
           </div>
 
+          <div className="grid w-full max-w-2xl grid-cols-1 gap-3 rounded-lg border border-cyan-500/20 bg-cyan-500/[0.08] p-4 text-left dark:bg-cyan-300/[0.08]">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-700 dark:text-cyan-200">
+              {content.focusLabel}
+            </p>
+            <p className="text-sm leading-relaxed text-slate-700 dark:text-slate-200">
+              {content.focusValue}
+            </p>
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-700 dark:text-cyan-200">
+              {content.approachLabel}
+            </p>
+            <p className="text-sm leading-relaxed text-slate-700 dark:text-slate-200">
+              {content.approachValue}
+            </p>
+          </div>
+
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mt-2 w-full sm:w-auto">
             <a
-              href="https://www.upwork.com/freelancers/~01d2dbae59f1642147?viewMode=1"
+              href="https://www.linkedin.com/in/clariana-abreu-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 md:px-8 py-3 md:py-4 text-base md:text-lg font-semibold text-white dark:text-[#07080c] bg-cyan-600 dark:bg-cyan-300 rounded-full hover:bg-cyan-700 dark:hover:bg-cyan-200 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-center"
@@ -98,37 +113,12 @@ export const Header = () => {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/clariana-abreu-dev"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:abreuclariana@gmail.com"
               className="px-6 md:px-8 py-3 md:py-4 text-base md:text-lg font-semibold text-slate-700 dark:text-slate-100 border border-slate-300 dark:border-white/10 rounded-full hover:border-cyan-400 hover:text-cyan-600 dark:hover:text-cyan-300 transition-all duration-300 text-center"
             >
               {content.secondaryCta}
             </a>
 
-            <a
-              href="https://github.com/abreuclariana"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 text-slate-600 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-300 transition-all duration-300 group"
-            >
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-                className="group-hover:scale-110 transition-transform duration-300"
-              >
-                <title>GitHub</title>
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M12 0C5.373 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12c0-6.627-5.373-12-12-12Z"
-                />
-              </svg>
-              <span className="font-medium">{content.githubCta}</span>
-            </a>
           </div>
         </div>
 
